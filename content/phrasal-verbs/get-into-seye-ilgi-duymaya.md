@@ -1,0 +1,33 @@
+---
+title: Get Into Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler
+description: Get into, bir şeye ilgi duymaya başlamak, bir konuya odaklanmak veya
+  bir şeye dahil olmak anlamına gelen bir phrasal verb'dür. Türkçede en doğal karşılığı...
+tags:
+- Günlük Konuşma
+- İş İngilizcesi
+phrasal_verb: get into
+date: '2027-08-18'
+draft: false
+---
+
+# Get Into Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler
+
+Get into, bir şeye ilgi duymaya başlamak, bir konuya odaklanmak veya bir şeye dahil olmak anlamına gelen bir phrasal verb'dür. Türkçede en doğal karşılığı 'bir şeye ilgi duymaya başlamak' veya 'bir şeye dalmak' olarak ifade edilir. Genellikle yeni bir hobi, konu veya aktiviteye yönelik artan bir merakı anlatmak için kullanılır.
+
+## Köken ve Yapı
+
+Get fiili Eski İngilizce 'gietan' kelimesinden gelir ve 'elde etmek, edinmek' anlamındadır. Into edatı ise 'içine' anlamı taşır. Bu ikisinin birleşimi, bir şeyin içine girme, ona dahil olma ve zamanla o şeye ilgi duyma anlamını kazanmıştır.
+
+## Örnek Cümleler
+
+**1.** I got into photography last summer and now I take pictures every weekend.
+
+*Geçen yaz fotoğrafçılığa ilgi duymaya başladım ve şimdi her hafta sonu fotoğraf çekiyorum.*
+
+**2.** She got into a deep conversation about climate change at the party.
+
+*Partide iklim değişikliği hakkında derin bir sohbete daldı.*
+
+## Etiketler
+
+`Günlük Konuşma` `İş İngilizcesi`

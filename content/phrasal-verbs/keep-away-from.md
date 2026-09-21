@@ -1,0 +1,33 @@
+---
+title: Keep away from Ne Demek? Anlamı ve Kullanım Örnekleri
+description: ‘Keep away from’ ifadesi, bir şeyi ya da birini yakından uzak tutmak,
+  ona yaklaşmamak anlamına gelir; genellikle tehlikeli, istenmeyen ya da zararlı...
+tags:
+- Günlük Konuşma
+- Sınav İngilizcesi
+phrasal_verb: keep away from
+date: '2027-02-11'
+draft: false
+---
+
+# Keep away from Ne Demek? Anlamı ve Kullanım Örnekleri
+
+‘Keep away from’ ifadesi, bir şeyi ya da birini yakından uzak tutmak, ona yaklaşmamak anlamına gelir; genellikle tehlikeli, istenmeyen ya da zararlı olduğu düşünülen durumlar için kullanılır ve bir kişiyi, bir yeri ya da bir davranışı uzak tutma tavsiyesi verir.
+
+## Köken ve Yapı
+
+‘Keep’ (tutmak) + ‘away’ (uzak) + ‘from’ (‑den) yapısının birleşiminden oluşur; 16. yüzyılda İngilizce’de ‘uzak durmak’ anlamında kullanılmaya başlanmıştır.
+
+## Örnek Cümleler
+
+**1.** You should keep away from the construction site; it's dangerous.
+
+*İnşaat alanından uzak durmalısın; tehlikelidir.*
+
+**2.** She keeps away from sugary foods to maintain her health.
+
+*Sağlığını korumak için şekerli yiyeceklerden uzak duruyor.*
+
+## Etiketler
+
+`Günlük Konuşma` `Sınav İngilizcesi`

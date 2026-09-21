@@ -1,0 +1,23 @@
+# Python önbellek
+__pycache__/
+*.py[codz]
+*.pyc
+
+# Yedek ve log dosyaları
+*.bak
+*.yedek
+hatalilar.txt
+zayif_listesi.txt
+1.txt
+config.txt
+
+# Hugo çıktı klasörü (GitHub Pages'te ayrıca yükleyeceğiz)
+public/
+resources/
+
+# Geçici dosyalar
+.DS_Store
+Thumbs.db
+
+# Ortam değişkenleri (API key'ler burada olabilir!)
+.env
