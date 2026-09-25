@@ -1,3 +1,5 @@
+from dotenv import load_dotenv
+load_dotenv()
 # -*- coding: utf-8 -*-
 import csv
 import json
@@ -7,6 +9,11 @@ import time
 
 # === API SAĞLAYICI AYARLARI ===
 SAĞLAYICILAR = {
+    "evren": {
+        "base_url": "https://evren-llmapi.ssyz.org.tr/v1",
+        "api_key": os.environ.get("EVREN_API_KEY", ""),
+        "model": "deepseek-v4-flash",
+    },
     "nvidia": {
         "base_url": "https://integrate.api.nvidia.com/v1",
         "api_key": os.environ.get("NVIDIA_API_KEY", ""),
@@ -24,7 +31,7 @@ SAĞLAYICILAR = {
     },
 }
 CONFIG_DOSYASI = "config.txt"
-VARSAYILAN_SAĞLAYICI = "deepseek"
+VARSAYILAN_SAĞLAYICI = "evren"
 
 def saglayici_oku():
     if not os.path.exists(CONFIG_DOSYASI):

@@ -1,0 +1,55 @@
+/* 1. TURUNCU TEMA VE RENK DEĞİŞKENLERİ */
+:root {
+    --primary-orange: #ea580c; /* Enerjik ve okunabilir bir turuncu */
+    --primary-orange-hover: #c2410c;
+    --card-bg: #f8fafc;
+    --card-border: #e2e8f0;
+}
+
+/* Koyu Mod (Dark Mode) Renkleri */
+.dark {
+    --primary-orange: #f97316; /* Koyu arka planda parlayan turuncu */
+    --primary-orange-hover: #fb923c;
+    --card-bg: #1e293b;
+    --card-border: #334155;
+}
+
+/* Linkler ve Butonlarda Turuncu Kullanımı */
+.post-content a {
+    color: var(--primary-orange);
+    text-decoration: underline;
+    text-decoration-color: var(--primary-orange);
+}
+
+.post-content a:hover {
+    color: var(--primary-orange-hover);
+}
+
+/* 2. KART TASARIMLARI (Bölümlendirme İçin) */
+.custom-card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 32px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+/* Sık Yapılan Hatalar veya İpuçları İçin Özel Kartlar */
+.error-card {
+    border-left: 5px solid #ef4444; /* Kırmızı vurgu çizgisi */
+}
+
+.success-card {
+    border-left: 5px solid #10b981; /* Yeşil vurgu çizgisi */
+}
+
+.info-card {
+    border-left: 5px solid var(--primary-orange); /* Turuncu vurgu çizgisi */
+}
+
+/* Başlıkların Kart İçinde Hizalanması */
+.custom-card h3, .custom-card h4 {
+    margin-top: 0;
+    margin-bottom: 16px;
+}

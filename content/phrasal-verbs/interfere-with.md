@@ -6,28 +6,72 @@ tags:
 - İş İngilizcesi
 - Günlük Konuşma
 phrasal_verb: interfere with
-date: '2027-02-02'
+url: /phrasal-verbs/interfere-with/
+date: '2024-10-25'
 draft: false
 ---
 
-# Interfere with Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler
+<div style="display: flex; align-items: center; gap: 12px; margin-bottom: 24px;">
+  <span style="font-size: 1.1rem; color: var(--primary-orange);">**Telaffuz:** `/ˌɪnərˈfɪr wɪθ/`</span>
+  <button onclick="const msg = new SpeechSynthesisUtterance('interfere with'); msg.lang = 'en-US'; window.speechSynthesis.speak(msg);" style="background-color: var(--primary-orange); color: white; border: none; border-radius: 50%; width: 36px; height: 36px; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" title="Dinle"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg></button>
+</div>
 
-‘Interfere with’ bir şeyin normal seyrini engellemek, gelişimini durdurmak ya da bir sürece karışmak anlamına gelir. Genellikle bir kişinin ya da bir şeyin başka bir şeyin işleyişine müdahale etmesi durumunu ifade eder. Bu ifade, özellikle iş ortamlarında, projelerde ya da sosyal ilişkilerde birinin planları bozmaya çalışması durumunda sıkça kullanılır.
+<div class="custom-card">
 
-## Köken ve Yapı
+## 📖 Köken ve Yapı
 
 Latince ‘inter-’ (arasında) ve ‘ferre’ (taşımak) köklerinden türetilen ‘interfere’ kelimesi, İngilizce’de ‘with’ edatıyla birleşerek ‘karışmak, müdahale etmek’ anlamını kazanmıştır.
 
-## Örnek Cümleler
+</div>
+
+<div class="custom-card info-card">
+
+## 💬 Örnek Cümleler
 
 **1.** The new regulations interfere with our ability to expand the business.
 
 *Yeni düzenlemeler, işimizi genişletme yeteneğimize müdahale ediyor.*
 
+---
+
 **2.** She tried not to interfere with his personal decisions.
 
 *Kişisel kararlarına karışmamaya çalıştı.*
 
-## Etiketler
+</div>
 
-`İş İngilizcesi` `Günlük Konuşma`
+<div class="custom-card error-card">
+
+## ⚠️ Sık Yapılan Hatalar
+
+❌ **Yanlış:** He interfered my plans (Yanlış: 'interfere' fiilinden sonra 'with' eklenmeden nesne kullanılmış)
+
+✅ **Doğru:** The loud music interfered with my ability to study.
+
+</div>
+
+<div class="custom-card">
+
+## 🔗 Eş ve Zıt Anlamlılar
+
+🔄 **Benzer:** meddle with, tamper with, get in the way of
+
+↔️ **Zıt:** help, facilitate
+
+</div>
+
+<div class="custom-card">
+
+## 💡 Kullanım Notu
+
+Günlük ve resmi dilde yaygın kullanılan, ancak resmi yazılarda 'hinder' veya 'disrupt' kadar güçlü bir etki taşıyan tarafsız bir ifadedir.
+
+</div>
+
+<div class="custom-card">
+
+## 📌 Benzer Phrasal Verb'ler
+
+- [Hold Up Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler](/phrasal-verbs/hold-up/)
+
+</div>

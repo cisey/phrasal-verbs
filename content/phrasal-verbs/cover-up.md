@@ -6,28 +6,64 @@ tags:
 - Günlük Konuşma
 - İş İngilizcesi
 phrasal_verb: cover up
-date: '2026-11-07'
+url: /phrasal-verbs/cover-up/
+date: '2024-02-09'
 draft: false
 ---
 
-# Cover up Ne Demek? Anlamı ve Örnek Cümleler
+<div style="display: flex; align-items: center; gap: 12px; margin-bottom: 24px;">
+  <span style="font-size: 1.1rem; color: var(--primary-orange);">**Telaffuz:** `/ˈkəvər əp/`</span>
+  <button onclick="const msg = new SpeechSynthesisUtterance('cover up'); msg.lang = 'en-US'; window.speechSynthesis.speak(msg);" style="background-color: var(--primary-orange); color: white; border: none; border-radius: 50%; width: 36px; height: 36px; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" title="Dinle"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg></button>
+</div>
 
-Cover up, bir şeyi gizlemek, saklamak ya da ortaya çıkmasını engellemek anlamına gelir. Genellikle olumsuz bir durumu, hatayı ya da suçu örtbas etmek için kullanılır. İngilizcede “to cover up” ifadesi, bu eylemi tanımlayan yaygın bir phrasal verb’dir. Bu yüzden, bir skandalı ya da hatayı gizlemek istediğinizde “cover up” ifadesini sıkça duyarsınız.
+<div class="custom-card">
 
-## Köken ve Yapı
+## 📖 Köken ve Yapı
 
 Cover up ifadesi, 19. yüzyılın ortalarında “cover” (örtmek) fiilinin “up” takısıyla birleşmesiyle oluşmuş ve gizleme eylemini vurgulamak için kullanılmaya başlanmıştır.
 
-## Örnek Cümleler
+</div>
+
+<div class="custom-card info-card">
+
+## 💬 Örnek Cümleler
 
 **1.** The company tried to cover up the safety violations.
 
 *Şirket, güvenlik ihlallerini örtbas etmeye çalıştı.*
 
+---
+
 **2.** She covered up her mistake by blaming someone else.
 
 *Hatasını başkasını suçlayarak gizledi.*
 
-## Etiketler
+</div>
 
-`Günlük Konuşma` `İş İngilizcesi`
+<div class="custom-card error-card">
+
+## ⚠️ Sık Yapılan Hatalar
+
+❌ **Yanlış:** They tried to cover up it. (Yanlış: ayrılabilir phrasal verb'de nesne fiil ile particle arasına girmeli)
+
+✅ **Doğru:** The company tried to cover up the scandal.
+
+</div>
+
+<div class="custom-card">
+
+## 🔗 Eş ve Zıt Anlamlılar
+
+🔄 **Benzer:** hush up, gloss over, sweep under the rug
+
+↔️ **Zıt:** reveal, expose
+
+</div>
+
+<div class="custom-card">
+
+## 💡 Kullanım Notu
+
+Hem günlük hem de resmi bağlamda kullanılabilir, ancak çoğunlukla olumsuz bir durumu veya hatayı örtbas etme anlamında tercih edilir.
+
+</div>

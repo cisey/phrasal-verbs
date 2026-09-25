@@ -6,28 +6,73 @@ tags:
 - Günlük Konuşma
 - Sınav İngilizcesi
 phrasal_verb: brighten up
-date: '2026-10-07'
+url: /phrasal-verbs/brighten-up/
+date: '2023-11-07'
 draft: false
 ---
 
-# Brighten Up Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler
+<div style="display: flex; align-items: center; gap: 12px; margin-bottom: 24px;">
+  <span style="font-size: 1.1rem; color: var(--primary-orange);">**Telaffuz:** `/ˈbraɪtən əp/`</span>
+  <button onclick="const msg = new SpeechSynthesisUtterance('brighten up'); msg.lang = 'en-US'; window.speechSynthesis.speak(msg);" style="background-color: var(--primary-orange); color: white; border: none; border-radius: 50%; width: 36px; height: 36px; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" title="Dinle"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg></button>
+</div>
 
-Brighten up, bir yerin, nesnenin veya ortamın daha neşeli, canlı, aydınlık ve ferah hale gelmesi ya da getirilmesi anlamına gelir. Aynı zamanda bir kişinin modunun yükselmesi, yüzünün gülmesi veya havanın açması durumlarını ifade etmek için günlük konuşmada sıklıkla tercih edilen bir phrasal verb'dür.
+<div class="custom-card">
 
-## Köken ve Yapı
+## 📖 Köken ve Yapı
 
 Eski İngilizcedeki 'beorht' (parlak, ışıltılı) kökünden türeyen 'bright' sıfatı, yön ve tamamlama bildiren 'up' edatıyla birleşerek bir durumun tamamen daha aydınlık veya neşeli bir hale dönüştürülmesini simgeler.
 
-## Örnek Cümleler
+</div>
+
+<div class="custom-card info-card">
+
+## 💬 Örnek Cümleler
 
 **1.** A few colorful flowers really brightened up the living room.
 
 *Birkaç renkli çiçek salonu gerçekten renklendirdi ve ferahlattı.*
 
+---
+
 **2.** His mood brightened up as soon as he heard the good news.
 
 *İyi haberi alır almaz neşesi yerine geldi ve yüzü güldü.*
 
-## Etiketler
+</div>
 
-`Günlük Konuşma` `Sınav İngilizcesi`
+<div class="custom-card error-card">
+
+## ⚠️ Sık Yapılan Hatalar
+
+❌ **Yanlış:** She brightened up herself. (Yanlış: 'brighten up' dönüşlü değildir; 'She brightened up.' veya 'The news brightened her up.' doğrudur.)
+
+✅ **Doğru:** The new curtains really brightened up the living room.
+
+</div>
+
+<div class="custom-card">
+
+## 🔗 Eş ve Zıt Anlamlılar
+
+🔄 **Benzer:** cheer up, light up, liven up
+
+↔️ **Zıt:** darken, depress
+
+</div>
+
+<div class="custom-card">
+
+## 💡 Kullanım Notu
+
+Günlük dilde sık kullanılır; hem bir yerin görünümünü hem de bir kişinin ruh halini iyileştirmek için kullanılabilir.
+
+</div>
+
+<div class="custom-card">
+
+## 📌 Benzer Phrasal Verb'ler
+
+- [Cheer up Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler](/phrasal-verbs/cheer-up/)
+- [Lighten Up Ne Demek? Anlamı ve Örnek Cümleler](/phrasal-verbs/lighten-up/)
+
+</div>

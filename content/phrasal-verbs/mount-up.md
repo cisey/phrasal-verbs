@@ -6,28 +6,73 @@ tags:
 - İş İngilizcesi
 - Günlük Konuşma
 phrasal_verb: mount up
-date: '2027-04-03'
+url: /phrasal-verbs/mount-up/
+date: '2025-04-25'
 draft: false
 ---
 
-# Mount Up Ne Demek? Anlamı ve Örnek Cümleler
+<div style="display: flex; align-items: center; gap: 12px; margin-bottom: 24px;">
+  <span style="font-size: 1.1rem; color: var(--primary-orange);">**Telaffuz:** `/maʊnt əp/`</span>
+  <button onclick="const msg = new SpeechSynthesisUtterance('mount up'); msg.lang = 'en-US'; window.speechSynthesis.speak(msg);" style="background-color: var(--primary-orange); color: white; border: none; border-radius: 50%; width: 36px; height: 36px; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" title="Dinle"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg></button>
+</div>
 
-Mount up, İngilizce bir phrasal verb olup Türkçede 'artmak, çoğalmak, birikmek' anlamlarına gelir. Genellikle miktar veya derece olarak kademeli bir artışı ifade eder. Örneğin, borçların veya masrafların zamanla çoğalması durumunda kullanılır. Günlük konuşmada ve iş İngilizcesinde sıkça karşımıza çıkar.
+<div class="custom-card">
 
-## Köken ve Yapı
+## 📖 Köken ve Yapı
 
 Mount kelimesi Eski Fransızca 'monter' (yükselmek, tırmanmak) kökenlidir. Up edatıyla birleşerek 'yukarı doğru birikmek, artmak' mecazi anlamını kazanmıştır.
 
-## Örnek Cümleler
+</div>
+
+<div class="custom-card info-card">
+
+## 💬 Örnek Cümleler
 
 **1.** As the deadline approached, the pressure mounted up.
 
 *Teslim tarihi yaklaştıkça baskı arttı.*
 
+---
+
 **2.** His debts continued to mount up despite his efforts to save money.
 
 *Para biriktirme çabalarına rağmen borçları artmaya devam etti.*
 
-## Etiketler
+</div>
 
-`İş İngilizcesi` `Günlük Konuşma`
+<div class="custom-card error-card">
+
+## ⚠️ Sık Yapılan Hatalar
+
+❌ **Yanlış:** The expenses mounted up $500. (Yanlış: miktar belirtilirken 'to' edatı unutuluyor.)
+
+✅ **Doğru:** The bills began to mount up as the month went on.
+
+</div>
+
+<div class="custom-card">
+
+## 🔗 Eş ve Zıt Anlamlılar
+
+🔄 **Benzer:** pile up, build up, add up
+
+↔️ **Zıt:** decrease, dwindle
+
+</div>
+
+<div class="custom-card">
+
+## 💡 Kullanım Notu
+
+Günlük dilde yaygın olarak kullanılır; resmi metinlerde genellikle 'accumulate' veya 'increase' tercih edilir.
+
+</div>
+
+<div class="custom-card">
+
+## 📌 Benzer Phrasal Verb'ler
+
+- [Build up Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler](/phrasal-verbs/build-up/)
+- [Add Up Ne Demek? Anlamı ve Örnek Cümleler](/phrasal-verbs/add-up/)
+
+</div>

@@ -1,0 +1,27 @@
+roll away - Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: f92383b2-12ce-469b-a725-24908a352937)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
+roll back - Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: dc9e83a9-6239-48f7-8f2a-ff35afb18949)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
+roll down - Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: f233796d-dddf-450a-8dea-b970026b77ba)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
+roll in - Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: 842a9476-1052-4989-ab2d-0b8d02a60288)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
+roll off - Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: 727a310d-05b5-4c7d-a039-432b28e425cd)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
+roll on - Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: e4ea864a-ae50-437a-be50-fb0af5d44747)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
+roll up on - Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: 644df0fc-449c-4ea5-951d-5d01c251f4bc)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
+roll away - Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: 9e7d9f8e-8f33-4c54-9e63-efa8800b69d4)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
+roll back - Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: 0fb78fb2-e28e-4405-976b-977d0dd78698)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
+roll down - Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: af2b9f97-a5d5-4163-8f25-1ca3461ee3e7)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
+roll in - Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: fd19cd12-e6a5-4067-bf24-43b64b46cf63)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
+roll off - Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: bc58f226-a409-4f64-97b3-5b839df3df7c)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
+roll on - Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: 033648d5-229d-4744-a081-ee9d6a2d87bd)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
+roll up on - Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: aebfde02-c50b-4479-8e95-ec3a9e1da398)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
+roll with - Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: 9c8dd9c1-e88a-4a55-98ba-69a409639c8b)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
+roll with it - Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: 26be488c-ead8-41c4-975f-8b0721180a9d)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
+roof over - Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: 8a802fcb-10be-46c2-9fbb-921b8f777c99)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
+room in - Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: 3c8fc425-e848-4651-9cb1-f42464099a40)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
+root about - Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: 4a589ce5-6408-40af-ab5f-c5fc5a1d1dad)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
+root around - Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: a57652d7-7e1e-4766-82ac-514f079873a5)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
+rope out - JSON çıkarılamadı
+rot through - JSON çıkarılamadı
+rub one off - JSON çıkarılamadı
+rub oneself off - JSON çıkarılamadı
+rule off - Error code: 503 - {'error': {'message': 'modele bağlanılamadı', 'type': 'api_error', 'param': None, 'code': 'service_unavailable'}}
+rust out - JSON çıkarılamadı
+salt out - JSON çıkarılamadı

@@ -6,32 +6,78 @@ tags:
 - Akademik İngilizce
 - İş İngilizcesi
 phrasal_verb: number among
-date: '2027-04-11'
+url: /phrasal-verbs/number-among/
+date: '2025-05-17'
 draft: false
 ---
 
-# Number Among Ne Demek? Anlamı, Türkçe Karşılığı ve Örnek Cümleler
+<div style="display: flex; align-items: center; gap: 12px; margin-bottom: 24px;">
+  <span style="font-size: 1.1rem; color: var(--primary-orange);">**Telaffuz:** `/ˈnəmbər əˈməŋ/`</span>
+  <button onclick="const msg = new SpeechSynthesisUtterance('number among'); msg.lang = 'en-US'; window.speechSynthesis.speak(msg);" style="background-color: var(--primary-orange); color: white; border: none; border-radius: 50%; width: 36px; height: 36px; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" title="Dinle"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg></button>
+</div>
 
-Number among, bir kişi veya şeyi benzer özellik taşıyan bir sınıf ya da gruba dahil etmek anlamına gelen bir phrasal verb'dür. Türkçede en doğal karşılığı 'arasında sayılmak', 'arasında yer almak' veya 'dahil etmek' olarak ifade edilir. Genellikle bir grubun üyesi olmayı ya da bir şeyi o gruba ait saymayı anlatır.
+<div class="custom-card">
 
-## Köken ve Yapı
+## 📖 Köken ve Yapı
 
 Number among yapısı, 'saymak, numaralandırmak' anlamındaki number fiili ile 'arasında' anlamına gelen among edatının birleşmesiyle oluşur. Yapı, bir şeyi belirli bir grup içinde sayma fikrini taşır.
 
-## Örnek Cümleler
+</div>
+
+<div class="custom-card info-card">
+
+## 💬 Örnek Cümleler
 
 **1.** She is numbered among the most influential writers of her generation.
 
 *O, kendi kuşağının en etkili yazarları arasında sayılır.*
 
+---
+
 **2.** The museum numbers this painting among its greatest treasures.
 
 *Müze bu tabloyu en büyük hazineleri arasında sayıyor.*
+
+---
 
 **3.** Many critics number him among the best actors of all time.
 
 *Birçok eleştirmen onu tüm zamanların en iyi aktörleri arasında sayar.*
 
-## Etiketler
+</div>
 
-`Akademik İngilizce` `İş İngilizcesi`
+<div class="custom-card error-card">
+
+## ⚠️ Sık Yapılan Hatalar
+
+❌ **Yanlış:** Yanlış: 'She numbers among the top students.' (Aktif kullanım yaygın değildir ve kulağa doğal gelmez.)
+
+✅ **Doğru:** She is numbered among the top students in her class.
+
+</div>
+
+<div class="custom-card">
+
+## 🔗 Eş ve Zıt Anlamlılar
+
+🔄 **Benzer:** arasında sayılmak, arasında yer almak, arasında anılmak
+
+↔️ **Zıt:** dışında tutulmak, hariç tutulmak
+
+</div>
+
+<div class="custom-card">
+
+## 💡 Kullanım Notu
+
+Bu ifade resmi ve yazılı dilde daha yaygındır; günlük konuşmada sık kullanılmaz.
+
+</div>
+
+<div class="custom-card">
+
+## 📌 Benzer Phrasal Verb'ler
+
+- [Come Under Ne Demek? Anlamı ve Örnek Cümleler](/phrasal-verbs/come-under/)
+
+</div>

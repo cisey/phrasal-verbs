@@ -1,0 +1,87 @@
+---
+title: Pull Up Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler
+description: Pull up, bir şeyi topraktan çekip çıkarmak anlamına gelen bir phrasal
+  verb'dür. Genellikle bitki, kazık veya çit direği gibi toprağa saplanmış nesneleri...
+tags:
+- Günlük Konuşma
+phrasal_verb: pull up
+url: /phrasal-verbs/pull-up-2/
+date: '2026-07-29'
+draft: false
+---
+
+<div style="display: flex; align-items: center; gap: 12px; margin-bottom: 24px;">
+  <span style="font-size: 1.1rem; color: var(--primary-orange);">**Telaffuz:** `/pʊl əp/`</span>
+  <button onclick="const msg = new SpeechSynthesisUtterance('pull up'); msg.lang = 'en-US'; window.speechSynthesis.speak(msg);" style="background-color: var(--primary-orange); color: white; border: none; border-radius: 50%; width: 36px; height: 36px; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" title="Dinle"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg></button>
+</div>
+
+<div class="custom-card">
+
+## 📖 Köken ve Yapı
+
+Pull (çekmek) ve up (yukarı) kelimelerinin birleşmesiyle oluşan bu phrasal verb, bir nesneyi aşağıdan yukarıya doğru kuvvet uygulayarak çıkarma hareketini ifade eder. Eski İngilizcede 'pullian' fiili çekme eylemini, 'up' ise yukarı yönü belirtir; birlikte topraktan yukarı çekme anlamı kazanmıştır.
+
+</div>
+
+<div class="custom-card info-card">
+
+## 💬 Örnek Cümleler
+
+**1.** The gardener pulled up the weeds from the flower bed.
+
+*Bahçıvan çiçek tarhındaki yabani otları söküp çıkardı.*
+
+---
+
+**2.** They had to pull up the old fence posts before building the new wall.
+
+*Yeni duvarı inşa etmeden önce eski çit direklerini söküp çıkarmaları gerekti.*
+
+</div>
+
+<div class="custom-card error-card">
+
+## ⚠️ Sık Yapılan Hatalar
+
+❌ **Yanlış:** Nesne zamiri kullanıldığında fiil ile parçacık arasına konulmaz: 'pull up it' yerine 'pull it up' denmelidir.
+
+✅ **Doğru:** She pulled up the weeds in the garden before planting flowers.
+
+</div>
+
+<div class="custom-card">
+
+## 🔗 Eş ve Zıt Anlamlılar
+
+🔄 **Benzer:** pull out, uproot, root out
+
+↔️ **Zıt:** plant, push down
+
+</div>
+
+<div class="custom-card">
+
+## 💡 Kullanım Notu
+
+Günlük konuşmada sık kullanılır; hem gerçek hem mecaz anlamda (örneğin bir sorunu kökten çözmek) karşımıza çıkabilir.
+
+</div>
+
+<div class="custom-card">
+
+## 📌 Benzer Phrasal Verb'ler
+
+- [Pull Out Ne Demek? Anlamı ve Örnek Cümleler](/phrasal-verbs/pull-out/)
+- [Dig up Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler](/phrasal-verbs/dig-up/)
+- [Root Out Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler](/phrasal-verbs/root-out/)
+
+## 🔍 İlişkili Phrasal Verb'ler
+
+- [Pull In Ne Demek? Anlamı, Türkçe Karşılığı ve Örnek Cümleler](/phrasal-verbs/pull-in/)
+- [Pull Off Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler](/phrasal-verbs/pull-off/)
+- [Pull On Ne Demek? Anlamı ve Örnek Cümleler](/phrasal-verbs/pull-on/)
+- [Pull Out Ne Demek? Anlamı ve Örnek Cümleler](/phrasal-verbs/pull-out/)
+- [Pull Out Ne Demek? Anlamı ve Örnek Cümleler](/phrasal-verbs/pull-out/)
+- [Pull Over Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler](/phrasal-verbs/pull-over/)
+
+</div>

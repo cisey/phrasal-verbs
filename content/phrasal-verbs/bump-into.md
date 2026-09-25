@@ -5,28 +5,73 @@ description: Bump into, tesadüfen birini rastlamak ya da çarpışmak anlamına
 tags:
 - Günlük Konuşma
 phrasal_verb: bump into
-date: '2026-10-14'
+url: /phrasal-verbs/bump-into/
+date: '2023-11-27'
 draft: false
 ---
 
-# Bump into Ne Demek? Anlamı ve Örnek Cümleler
+<div style="display: flex; align-items: center; gap: 12px; margin-bottom: 24px;">
+  <span style="font-size: 1.1rem; color: var(--primary-orange);">**Telaffuz:** `/bəmp ˈɪntu/`</span>
+  <button onclick="const msg = new SpeechSynthesisUtterance('bump into'); msg.lang = 'en-US'; window.speechSynthesis.speak(msg);" style="background-color: var(--primary-orange); color: white; border: none; border-radius: 50%; width: 36px; height: 36px; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" title="Dinle"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg></button>
+</div>
 
-Bump into, tesadüfen birini rastlamak ya da çarpışmak anlamına gelen bir phrasal verb’dir. Genellikle beklenmedik bir karşılaşmayı ifade eder ve günlük konuşmalarda sıkça kullanılır. Bu ifade, planlanmamış bir buluşma ya da aniden karşılaşma durumlarını vurgulamak için tercih edilir.
+<div class="custom-card">
 
-## Köken ve Yapı
+## 📖 Köken ve Yapı
 
 ‘Bump’ kelimesi çarpma anlamına gelirken, ‘into’ yönelimiyle birleşerek ‘birine çarparak rastlamak’ anlamını kazanmıştır; 19. yüzyılda günlük İngilizcede yaygınlaşmıştır.
 
-## Örnek Cümleler
+</div>
+
+<div class="custom-card info-card">
+
+## 💬 Örnek Cümleler
 
 **1.** I bumped into my old teacher at the supermarket yesterday.
 
 *Dün markette eski öğretmenimle tesadüfen karşılaştım.*
 
+---
+
 **2.** She bumped into a former colleague while traveling abroad.
 
 *Yurtdışında seyahat ederken eski bir meslektaşıyla rastladı.*
 
-## Etiketler
+</div>
 
-`Günlük Konuşma`
+<div class="custom-card error-card">
+
+## ⚠️ Sık Yapılan Hatalar
+
+❌ **Yanlış:** Planlı bir buluşma için kullanmak: 'I bumped into my friend tomorrow' (Yanlış, çünkü tesadüfi bir karşılaşma olmalı)
+
+✅ **Doğru:** I bumped into an old friend at the supermarket. (Süpermarkette eski bir arkadaşıma tesadüfen rastladım.)
+
+</div>
+
+<div class="custom-card">
+
+## 🔗 Eş ve Zıt Anlamlılar
+
+🔄 **Benzer:** run into, come across, stumble upon
+
+↔️ **Zıt:** plan to meet, arrange a meeting
+
+</div>
+
+<div class="custom-card">
+
+## 💡 Kullanım Notu
+
+Günlük konuşmalarda sık kullanılır, resmi yazışmalar için uygun değildir.
+
+</div>
+
+<div class="custom-card">
+
+## 📌 Benzer Phrasal Verb'ler
+
+- [Run Into Ne Demek? Anlamı ve Örnek Cümleler](/phrasal-verbs/run-into/)
+- [Come Across Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler](/phrasal-verbs/come-across/)
+
+</div>

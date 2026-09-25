@@ -6,32 +6,88 @@ tags:
 - Günlük Konuşma
 - İş İngilizcesi
 phrasal_verb: put off
-date: '2027-05-06'
+url: /phrasal-verbs/put-off/
+date: '2025-08-02'
 draft: false
 ---
 
-# Put Off Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler
+<div style="display: flex; align-items: center; gap: 12px; margin-bottom: 24px;">
+  <span style="font-size: 1.1rem; color: var(--primary-orange);">**Telaffuz:** `/pʊt ɔf/`</span>
+  <button onclick="const msg = new SpeechSynthesisUtterance('put off'); msg.lang = 'en-US'; window.speechSynthesis.speak(msg);" style="background-color: var(--primary-orange); color: white; border: none; border-radius: 50%; width: 36px; height: 36px; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" title="Dinle"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg></button>
+</div>
 
-Put off, bir şeyi ertelemek, geciktirmek veya planlanan bir zamanı daha ileri bir tarihe almak anlamına gelen bir phrasal verb'dür. Türkçede en doğal karşılığı 'ertelemek' veya 'geciktirmek'tir. Ayrıca bir kişiyi bir şeyden soğutmak veya cesaretini kırmak anlamında da kullanılır.
+<div class="custom-card">
 
-## Köken ve Yapı
+## 📖 Köken ve Yapı
 
 Put off, Eski İngilizce'deki 'putian' (koymak, yerleştirmek) ve 'of' (ayrılma, uzaklaşma) edatının birleşmesiyle oluşmuştur. Kelimenin kökeni, bir şeyi 'uzağa koymak' yani zaman olarak ötelemek fikrine dayanır.
 
-## Örnek Cümleler
+</div>
+
+<div class="custom-card info-card">
+
+## 💬 Örnek Cümleler
 
 **1.** The meeting has been put off until next Monday because the manager is sick.
 
 *Yönetici hasta olduğu için toplantı gelecek Pazartesi'ye ertelendi.*
 
+---
+
 **2.** Don't put off your homework until the last minute; you'll regret it.
 
 *Ödevini son dakikaya kadar erteleme; pişman olursun.*
+
+---
 
 **3.** His rude behavior really put me off, so I left the party early.
 
 *Kaba davranışı beni gerçekten soğuttu, bu yüzden partiden erken ayrıldım.*
 
-## Etiketler
+</div>
 
-`Günlük Konuşma` `İş İngilizcesi`
+<div class="custom-card error-card">
+
+## ⚠️ Sık Yapılan Hatalar
+
+❌ **Yanlış:** Put off'u mastarla kullanmak: 'I put off to do my homework' yanlıştır.
+
+✅ **Doğru:** I put off doing my homework until the weekend.
+
+</div>
+
+<div class="custom-card">
+
+## 🔗 Eş ve Zıt Anlamlılar
+
+🔄 **Benzer:** postpone, delay, defer
+
+↔️ **Zıt:** bring forward, advance
+
+</div>
+
+<div class="custom-card">
+
+## 💡 Kullanım Notu
+
+Hem resmi hem günlük dilde yaygın, ancak günlük konuşmada daha sık tercih edilir.
+
+</div>
+
+<div class="custom-card">
+
+## 📌 Benzer Phrasal Verb'ler
+
+- [Put Back Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler](/phrasal-verbs/put-back/)
+- [Hold off Ne Demek? Anlamı ve Örnek Cümleler](/phrasal-verbs/hold-off/)
+
+## 🔍 İlişkili Phrasal Verb'ler
+
+- [Put Aside Ne Demek? Anlamı ve Örnek Cümleler](/phrasal-verbs/put-aside/)
+- [Put Away Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler](/phrasal-verbs/put-away/)
+- [Put Back Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler](/phrasal-verbs/put-back/)
+- [Put Down Ne Demek? Anlamı ve Örnek Cümleler](/phrasal-verbs/put-down/)
+- [Put Forward Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler](/phrasal-verbs/put-forward/)
+- [Put in Ne Demek? İngilizce Phrasal Verb Anlamı ve Örnek Cümleler](/phrasal-verbs/put-in/)
+
+</div>

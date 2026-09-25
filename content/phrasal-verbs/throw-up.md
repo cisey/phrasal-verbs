@@ -5,28 +5,79 @@ description: Throw up, İngilizcede kusmak anlamına gelen bir phrasal verb'dür
 tags:
 - Günlük Konuşma
 phrasal_verb: throw up
-date: '2027-07-08'
+url: /phrasal-verbs/throw-up/
+date: '2026-02-06'
 draft: false
 ---
 
-# Throw Up Ne Demek? Anlamı ve Örnek Cümleler
+<div style="display: flex; align-items: center; gap: 12px; margin-bottom: 24px;">
+  <span style="font-size: 1.1rem; color: var(--primary-orange);">**Telaffuz:** `/θroʊ əp/`</span>
+  <button onclick="const msg = new SpeechSynthesisUtterance('throw up'); msg.lang = 'en-US'; window.speechSynthesis.speak(msg);" style="background-color: var(--primary-orange); color: white; border: none; border-radius: 50%; width: 36px; height: 36px; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" title="Dinle"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg></button>
+</div>
 
-Throw up, İngilizcede kusmak anlamına gelen bir phrasal verb'dür. Bir kişi throw up yaptığında midesindeki içeriği ağzından dışarı çıkarır. Türkçede en doğal karşılığı 'kusmak' veya 'istifra etmek'tir. Günlük konuşmada sıklıkla kullanılır ve genellikle ani bir rahatsızlık durumunu ifade eder.
+<div class="custom-card">
 
-## Köken ve Yapı
+## 📖 Köken ve Yapı
 
 Throw up, Eski İngilizce 'þrawan' (döndürmek, fırlatmak) ve 'up' (yukarı) kelimelerinin birleşmesiyle oluşmuştur. Kelimenin kökeni, mide içeriğinin yukarı doğru fırlatılması hareketini yansıtır.
 
-## Örnek Cümleler
+</div>
+
+<div class="custom-card info-card">
+
+## 💬 Örnek Cümleler
 
 **1.** He felt sick and threw up after the roller coaster ride.
 
 *Hasta hissetti ve hız treni yolculuğundan sonra kustu.*
 
+---
+
 **2.** The smell was so bad that I almost threw up.
 
 *Koku o kadar kötüydü ki neredeyse kusuyordum.*
 
-## Etiketler
+</div>
 
-`Günlük Konuşma`
+<div class="custom-card error-card">
+
+## ⚠️ Sık Yapılan Hatalar
+
+❌ **Yanlış:** Throw up ifadesini 'fırlatmak' anlamında kullanmak (örneğin 'throw up the ball' diyerek topu yukarı fırlatmak anlamında yanlış kullanım).
+
+✅ **Doğru:** He ate too much and threw up in the bathroom.
+
+</div>
+
+<div class="custom-card">
+
+## 🔗 Eş ve Zıt Anlamlılar
+
+🔄 **Benzer:** puke, vomit, regurgitate
+
+↔️ **Zıt:** keep down, hold down
+
+</div>
+
+<div class="custom-card">
+
+## 💡 Kullanım Notu
+
+Throw up günlük konuşma dilinde sıkça kullanılan resmi olmayan bir ifadedir; tıbbi veya resmi bağlamlarda 'vomit' tercih edilir.
+
+</div>
+
+<div class="custom-card">
+
+## 📌 Benzer Phrasal Verb'ler
+
+- [Bring Up Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler](/phrasal-verbs/bring-up/)
+
+## 🔍 İlişkili Phrasal Verb'ler
+
+- [Throw Away Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler](/phrasal-verbs/throw-away/)
+- [Throw Off Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler](/phrasal-verbs/throw-off/)
+- [Throw Out Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler](/phrasal-verbs/throw-out/)
+- [Throw Out Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler](/phrasal-verbs/throw-out/)
+
+</div>

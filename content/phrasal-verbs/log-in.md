@@ -6,28 +6,76 @@ tags:
 - Günlük Konuşma
 - İş İngilizcesi
 phrasal_verb: log in
-date: '2027-02-25'
+url: /phrasal-verbs/log-in/
+date: '2025-01-04'
 draft: false
 ---
 
-# Log in Ne Demek? Giriş Yapmak Anlamı ve Örnek Cümleler
+<div style="display: flex; align-items: center; gap: 12px; margin-bottom: 24px;">
+  <span style="font-size: 1.1rem; color: var(--primary-orange);">**Telaffuz:** `/lɔg ɪn/`</span>
+  <button onclick="const msg = new SpeechSynthesisUtterance('log in'); msg.lang = 'en-US'; window.speechSynthesis.speak(msg);" style="background-color: var(--primary-orange); color: white; border: none; border-radius: 50%; width: 36px; height: 36px; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" title="Dinle"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg></button>
+</div>
 
-Log in, bir kullanıcı adı ve şifre girerek bir çevrimiçi uygulama veya bilgisayar ağına erişim sağlamak anlamına gelir. Türkçe'de 'giriş yapmak' veya 'sisteme giriş yapmak' olarak kullanılır. Bu işlem, genellikle güvenlik amaçlı kimlik doğrulama adımıdır ve günlük yaşamda sosyal medya, e-posta veya iş sistemlerine giriş yaparken sıklıkla karşılaşırız.
+<div class="custom-card">
 
-## Köken ve Yapı
+## 📖 Köken ve Yapı
 
 Kelime 'log', eski Norveççe 'lag' (katman) kökenli olup, bir deftere kayıt tutmak anlamına gelir. Bilimsel kullanımda 'log in', bir sistemde giriş yapıp bu hareketin kaydedilmesi anlamına gelerek ortaya çıkmıştır.
 
-## Örnek Cümleler
+</div>
+
+<div class="custom-card info-card">
+
+## 💬 Örnek Cümleler
 
 **1.** Please log in to your account to view the dashboard.
 
 *Panoyu görmek için hesabınıza giriş yapın.*
 
+---
+
 **2.** She forgot to log out after logging in from the public computer.
 
 *Ortak bilgisayardan giriş yaptıktan sonra çıkış yapmayı unuttu.*
 
-## Etiketler
+</div>
 
-`Günlük Konuşma` `İş İngilizcesi`
+<div class="custom-card error-card">
+
+## ⚠️ Sık Yapılan Hatalar
+
+❌ **Yanlış:** I logged in the website.
+
+✅ **Doğru:** You need to log in with your email and password.
+
+</div>
+
+<div class="custom-card">
+
+## 🔗 Eş ve Zıt Anlamlılar
+
+🔄 **Benzer:** log on, sign in, log into
+
+↔️ **Zıt:** log out, sign out
+
+</div>
+
+<div class="custom-card">
+
+## 💡 Kullanım Notu
+
+Günlük konuşmada da yaygın olmakla birlikte, çoğunlukla bilgisayar ve internet bağlamında kullanılan teknik bir ifadedir.
+
+</div>
+
+<div class="custom-card">
+
+## 📌 Benzer Phrasal Verb'ler
+
+- [Sign In Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler](/phrasal-verbs/sign-in/)
+
+## 🔍 İlişkili Phrasal Verb'ler
+
+- [Log Out Ne Demek? Anlamı ve Kullanım Örnekleri](/phrasal-verbs/log-out/)
+
+</div>

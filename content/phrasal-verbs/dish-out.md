@@ -6,28 +6,74 @@ tags:
 - Günlük Konuşma
 - İş İngilizcesi
 phrasal_verb: dish out
-date: '2026-12-14'
+url: /phrasal-verbs/dish-out/
+date: '2024-05-30'
 draft: false
 ---
 
-# Dish out Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler
+<div style="display: flex; align-items: center; gap: 12px; margin-bottom: 24px;">
+  <span style="font-size: 1.1rem; color: var(--primary-orange);">**Telaffuz:** `/dɪʃ aʊt/`</span>
+  <button onclick="const msg = new SpeechSynthesisUtterance('dish out'); msg.lang = 'en-US'; window.speechSynthesis.speak(msg);" style="background-color: var(--primary-orange); color: white; border: none; border-radius: 50%; width: 36px; height: 36px; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" title="Dinle"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg></button>
+</div>
 
-Dish out, birine özellikle para, ceza, eleştiri ya da bilgi gibi şeyleri düşünmeden, genellikle hızlı ve bol miktarda vermek anlamına gelir. Bu deyim, bir şeyi bolca dağıtmak ya da serbestçe sunmak için kullanılır. İş yerinde ya da günlük hayatta, özellikle eleştiri ya da ödül dağıtırken sıkça duyulur.
+<div class="custom-card">
 
-## Köken ve Yapı
+## 📖 Köken ve Yapı
 
 ‘Dish’, eski İngilizcede ‘tabak, sunum kabı’ anlamına gelir; ‘out’ ise dışarı yönelme anlamı katar. 20. yüzyıl ortalarında ABD argosunda ‘paylamak, dağıtmak’ anlamında kullanılmaya başlanmıştır.
 
-## Örnek Cümleler
+</div>
+
+<div class="custom-card info-card">
+
+## 💬 Örnek Cümleler
 
 **1.** The manager dishes out bonuses to the top performers each quarter.
 
 *Müdür, her çeyrekte en iyi performans gösterenlere prim dağıtır.*
 
+---
+
 **2.** She loves to dish out criticism without considering people's feelings.
 
 *O, insanların duygularını düşünmeden eleştiri dağıtmaktan hoşlanır.*
 
-## Etiketler
+</div>
 
-`Günlük Konuşma` `İş İngilizcesi`
+<div class="custom-card error-card">
+
+## ⚠️ Sık Yapılan Hatalar
+
+❌ **Yanlış:** The dish the prizes to the winners (fiil olarak 'dish' kullanmak; 'dish out' yerine geçmez)
+
+✅ **Doğru:** The coach dished out harsh criticism to the players after the loss.
+
+</div>
+
+<div class="custom-card">
+
+## 🔗 Eş ve Zıt Anlamlılar
+
+🔄 **Benzer:** hand out, distribute, deal out, give out
+
+↔️ **Zıt:** withhold, keep back
+
+</div>
+
+<div class="custom-card">
+
+## 💡 Kullanım Notu
+
+Oldukça günlük bir ifadedir; resmi metinlerde 'distribute' veya 'allocate' gibi daha tarafsız sözcükler tercih edilir.
+
+</div>
+
+<div class="custom-card">
+
+## 📌 Benzer Phrasal Verb'ler
+
+- [Hand out Ne Demek? Anlamı ve Örnek Cümleler](/phrasal-verbs/hand-out/)
+- [Give Out Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler](/phrasal-verbs/give-out/)
+- [Pour Out Ne Demek? Anlamı, Türkçe Karşılığı ve Örnek Cümleler](/phrasal-verbs/pour-out/)
+
+</div>

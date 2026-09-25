@@ -5,28 +5,78 @@ description: Pick on, birine sürekli kötü davranmak, onu hedef almak veya sü
 tags:
 - Günlük Konuşma
 phrasal_verb: pick on
-date: '2027-04-26'
+url: /phrasal-verbs/pick-on/
+date: '2025-07-02'
 draft: false
 ---
 
-# Pick On Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler
+<div style="display: flex; align-items: center; gap: 12px; margin-bottom: 24px;">
+  <span style="font-size: 1.1rem; color: var(--primary-orange);">**Telaffuz:** `/pɪk ɔn/`</span>
+  <button onclick="const msg = new SpeechSynthesisUtterance('pick on'); msg.lang = 'en-US'; window.speechSynthesis.speak(msg);" style="background-color: var(--primary-orange); color: white; border: none; border-radius: 50%; width: 36px; height: 36px; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" title="Dinle"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg></button>
+</div>
 
-Pick on, birine sürekli kötü davranmak, onu hedef almak veya sürekli eleştirmek anlamına gelen bir phrasal verb'dür. Türkçede en doğal karşılığı 'birine takmak', 'birini hedef almak' veya 'birine sataşmak' olarak ifade edilir. Genellikle zayıf veya savunmasız kişilere yönelik haksız davranışları tanımlamak için kullanılır.
+<div class="custom-card">
 
-## Köken ve Yapı
+## 📖 Köken ve Yapı
 
 Pick on, 'pick' (seçmek) ve 'on' (üzerine) kelimelerinin birleşmesiyle oluşur. Kelimenin kökeni, birini hedef seçip sürekli ona yönelmek fikrine dayanır; bu yapı 19. yüzyıldan itibaren İngilizcede yaygınlaşmıştır.
 
-## Örnek Cümleler
+</div>
+
+<div class="custom-card info-card">
+
+## 💬 Örnek Cümleler
 
 **1.** The older kids always pick on the new student at school.
 
 *Büyük çocuklar okulda her zaman yeni öğrenciye takarlar.*
 
+---
+
 **2.** Stop picking on your little brother; it's not fair.
 
 *Küçük kardeşine sataşmayı bırak; bu adil değil.*
 
-## Etiketler
+</div>
 
-`Günlük Konuşma`
+<div class="custom-card error-card">
+
+## ⚠️ Sık Yapılan Hatalar
+
+❌ **Yanlış:** She picked on the red dress. (Yanlış: 'pick on' seçmek anlamında kullanılmaz, doğrusu 'pick out')
+
+✅ **Doğru:** The other kids always pick on him because he is shy.
+
+</div>
+
+<div class="custom-card">
+
+## 🔗 Eş ve Zıt Anlamlılar
+
+🔄 **Benzer:** bully, tease, target
+
+↔️ **Zıt:** defend, support
+
+</div>
+
+<div class="custom-card">
+
+## 💡 Kullanım Notu
+
+Günlük konuşma dilinde yaygındır, resmi yazışmalarda kullanılmaz.
+
+</div>
+
+<div class="custom-card">
+
+## 📌 Benzer Phrasal Verb'ler
+
+- [Get at Ne Demek? Anlamı ve Örnek Cümleler](/phrasal-verbs/get-at/)
+
+## 🔍 İlişkili Phrasal Verb'ler
+
+- [Pick Out Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler](/phrasal-verbs/pick-out/)
+- [Pick Up Ne Demek? Anlamı ve Örnek Cümleler](/phrasal-verbs/pick-up/)
+- [Pick Up Ne Demek? Anlamı ve Örnek Cümleler](/phrasal-verbs/pick-up/)
+
+</div>

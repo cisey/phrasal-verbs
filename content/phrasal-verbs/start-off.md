@@ -6,28 +6,79 @@ tags:
 - Günlük Konuşma
 - İş İngilizcesi
 phrasal_verb: start off
-date: '2027-09-14'
+url: /phrasal-verbs/start-off/
+date: '2026-08-28'
 draft: false
 ---
 
-# Start Off Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler
+<div style="display: flex; align-items: center; gap: 12px; margin-bottom: 24px;">
+  <span style="font-size: 1.1rem; color: var(--primary-orange);">**Telaffuz:** `/stɑrt ɔf/`</span>
+  <button onclick="const msg = new SpeechSynthesisUtterance('start off'); msg.lang = 'en-US'; window.speechSynthesis.speak(msg);" style="background-color: var(--primary-orange); color: white; border: none; border-radius: 50%; width: 36px; height: 36px; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" title="Dinle"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg></button>
+</div>
 
-Start off, İngilizce bir phrasal verb olup Türkçede 'başlamak', 'yola koyulmak' veya 'bir işe koyulmak' anlamlarına gelir. Genellikle bir eylemin, konuşmanın veya yolculuğun belirli bir şekilde başladığını ifade etmek için kullanılır. Günlük konuşmada ve iş İngilizcesinde sıkça tercih edilir.
+<div class="custom-card">
 
-## Köken ve Yapı
+## 📖 Köken ve Yapı
 
 Start off, Eski İngilizce 'styrtan' (başlamak) ve 'of' (ayrılma, başlangıç) kelimelerinin birleşmesiyle oluşmuştur. 16. yüzyıldan itibaren 'bir yolculuğa çıkmak' anlamında kullanılmaya başlanmıştır.
 
-## Örnek Cümleler
+</div>
+
+<div class="custom-card info-card">
+
+## 💬 Örnek Cümleler
 
 **1.** Let's start off the meeting with a quick update.
 
 *Toplantıya kısa bir güncellemeyle başlayalım.*
 
+---
+
 **2.** She started off her career as a teacher.
 
 *Kariyerine öğretmen olarak başladı.*
 
-## Etiketler
+</div>
 
-`Günlük Konuşma` `İş İngilizcesi`
+<div class="custom-card error-card">
+
+## ⚠️ Sık Yapılan Hatalar
+
+❌ **Yanlış:** She started off to explain the rules. (Doğrusu: She started off by explaining the rules.)
+
+✅ **Doğru:** She started off by explaining the rules.
+
+</div>
+
+<div class="custom-card">
+
+## 🔗 Eş ve Zıt Anlamlılar
+
+🔄 **Benzer:** begin, kick off, set out
+
+↔️ **Zıt:** end, conclude
+
+</div>
+
+<div class="custom-card">
+
+## 💡 Kullanım Notu
+
+Günlük konuşma dilinde sık kullanılır; resmi yazılarda 'begin' veya 'commence' daha uygundur.
+
+</div>
+
+<div class="custom-card">
+
+## 📌 Benzer Phrasal Verb'ler
+
+- [Set Off Ne Demek? Anlamı ve Örnek Cümleler](/phrasal-verbs/set-off/)
+- [Set Out Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler](/phrasal-verbs/set-out/)
+- [Kick Off Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler](/phrasal-verbs/kick-off/)
+
+## 🔍 İlişkili Phrasal Verb'ler
+
+- [Start Out Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler](/phrasal-verbs/start-out/)
+- [Start Up Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler](/phrasal-verbs/start-up/)
+
+</div>

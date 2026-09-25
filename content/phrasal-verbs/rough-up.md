@@ -6,28 +6,73 @@ tags:
 - Günlük Konuşma
 - İş İngilizcesi
 phrasal_verb: rough up
-date: '2027-09-07'
+url: /phrasal-verbs/rough-up/
+date: '2026-08-08'
 draft: false
 ---
 
-# Rough Up Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler
+<div style="display: flex; align-items: center; gap: 12px; margin-bottom: 24px;">
+  <span style="font-size: 1.1rem; color: var(--primary-orange);">**Telaffuz:** `/rəf əp/`</span>
+  <button onclick="const msg = new SpeechSynthesisUtterance('rough up'); msg.lang = 'en-US'; window.speechSynthesis.speak(msg);" style="background-color: var(--primary-orange); color: white; border: none; border-radius: 50%; width: 36px; height: 36px; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" title="Dinle"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg></button>
+</div>
 
-Rough up, birini fiziksel olarak hırpalamak, dövmek veya kaba kuvvetle korkutmak anlamına gelen bir phrasal verb'dür. Genellikle ciddi yaralanma amacı taşımaz; daha çok gözdağı vermek, sindirmek veya tehdit etmek için yapılan hafif şiddet eylemlerini ifade eder. Türkçede en doğal karşılığı 'hırpalamak', 'dövmek' veya 'kaba kuvvet uygulamak' olarak verilebilir.
+<div class="custom-card">
 
-## Köken ve Yapı
+## 📖 Köken ve Yapı
 
 İngilizce 'rough' (kaba, sert) ve 'up' (yukarı, tamamen) kelimelerinin birleşmesiyle oluşan bu phrasal verb, 19. yüzyıldan itibaren özellikle Amerikan İngilizcesinde 'birini kaba bir şekilde ele almak, hırpalamak' anlamında kullanılmaktadır. 'Up' edatı burada eylemin şiddetini ve tamamlanmışlığını vurgular.
 
-## Örnek Cümleler
+</div>
+
+<div class="custom-card info-card">
+
+## 💬 Örnek Cümleler
 
 **1.** The gang tried to rough him up to scare him into silence.
 
 *Çete, onu susturmak için korkutup hırpalamaya çalıştı.*
 
+---
+
 **2.** The police were accused of roughing up the suspect during interrogation.
 
 *Polis, sorgu sırasında şüpheliyi hırpalamakla suçlandı.*
 
-## Etiketler
+</div>
 
-`Günlük Konuşma` `İş İngilizcesi`
+<div class="custom-card error-card">
+
+## ⚠️ Sık Yapılan Hatalar
+
+❌ **Yanlış:** rough up fiili 'up' olmadan kullanılmamalıdır; örneğin 'He roughed him' yanlıştır.
+
+✅ **Doğru:** The gang roughed up the witness to scare him.
+
+</div>
+
+<div class="custom-card">
+
+## 🔗 Eş ve Zıt Anlamlılar
+
+🔄 **Benzer:** beat up, manhandle, assault
+
+↔️ **Zıt:** care for, treat gently
+
+</div>
+
+<div class="custom-card">
+
+## 💡 Kullanım Notu
+
+Resmi olmayan, günlük konuşma dilinde ve genellikle kaba/sokak jargonunda kullanılır.
+
+</div>
+
+<div class="custom-card">
+
+## 📌 Benzer Phrasal Verb'ler
+
+- [Beat Up Ne Demek? Anlamı ve Örneklerle Kullanımı](/phrasal-verbs/beat-up/)
+- [Knock Around Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler](/phrasal-verbs/knock-around/)
+
+</div>

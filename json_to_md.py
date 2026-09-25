@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import eng_to_ipa as ipa_lib
 import json
 import os
 import re
@@ -8,15 +9,22 @@ from datetime import datetime, timedelta
 import yaml
 
 INPUT_JSON = "output.json"
-OUTPUT_DIR = "content/phrasal-verbs"
-INDEX_FILE = "content/phrasal-verbs-index.json"
+ZENGIN_JSON = "output_zengin.json"
+BENZER_JSON = "output_benzer.json"
+OUTPUT_DIR = "site/content/phrasal-verbs"
+INDEX_FILE = "site/content/phrasal-verbs-index.json"
 
-# Yayın planı
-GUNLUK_YAYIN = 3
-BASLANGIC_TARIHI = datetime.now()
+# Yayın planı: 1108 içeriği bugünden geriye doğru yay
+GUNLUK_YAYIN = 1
+BASLANGIC_TARIHI = datetime.now() - timedelta(days=1108)
 
 # Hugo teması sayfa başlığını H1 olarak basıyorsa False yap
-H1_YAZ = True
+H1_YAZ = False
+
+# Global kayıtlar
+TUM_KAYITLAR = {}
+ZENGIN_DATA = {}
+BENZER_DATA = {}
 
 TR_KARAKTERLER = {
     "ç": "c", "Ç": "c",
@@ -27,25 +35,8 @@ TR_KARAKTERLER = {
     "ü": "u", "Ü": "u",
 }
 
-# short_answer içinde sık geçen, slug'a katkısı olmayan dolgu kelimeler
-DOLGU_KELIMELER = {
-    "bir", "birine", "birisi", "biri", "bu", "şu", "o",
-    "ingilizce", "türkçe", "türkçede", "türkçesi", "türkcede",
-    "anlamına", "anlamı", "anlam", "anlamda", "anlamlar",
-    "gelir", "gelen", "gelmek", "geliyor", "gelir.",
-    "olan", "olarak", "ise", "veya", "ya", "da", "de",
-    "phrasal", "verb", "verbdür", "verb'dür", "ifade",
-    "ifadesi", "kelime", "kelimesi", "çok", "en", "ve",
-    "ki", "mi", "mu", "mı", "mü", "ise", "ama", "fakat",
-    "genellikle", "çoğunlukla", "bazen", "biraz", "daha",
-    "şey", "şeyi", "şeyler", "durum", "durumda", "durumu",
-    "zaman", "zamanı", "yer", "yerde", "yeri",
-    "kadar", "gibi", "için", "ile", "hem", "ya",
-}
-
 
 def slugify(text):
-    """'blow up | to explode' → 'blow-up'"""
     kelime = text.split("|")[0].strip().lower()
     for tr, en in TR_KARAKTERLER.items():
         kelime = kelime.replace(tr, en)
@@ -54,82 +45,12 @@ def slugify(text):
     return kelime or "bilinmeyen"
 
 
-def anlam_slug_ekle(kelime, veri):
-    """Slug'a anlamdan kısa bir ipucu ekler.
-
-    short_answer'ın ilk cümlesinden anlamlı (dolgu olmayan) kelimeleri
-    çeker, phrasal verb'ün kendisini atlar, sonucu slug formatına çevirir.
-    """
-    short = veri.get("short_answer", "")
-    if not short:
-        return None
-
-    # İlk cümleyi al (noktadan kes)
-    ilk_cumle = short.split(".")[0].strip()
-    if not ilk_cumle:
-        return None
-
-    kelimeler = ilk_cumle.split()
-
-    # Phrasal verb'ün kendisini (baştaki kelimeleri) atla
-    # Örn: "Stand by, birine destek..." → "Stand by" kısmını geç
-    pv_kelimeleri = kelime.split("|")[0].strip().lower().split()
-
-    i = 0
-    while i < len(kelimeler) and i < len(pv_kelimeleri):
-        temiz = kelimeler[i].lower().strip(",;:!?'\"")
-        if temiz == pv_kelimeleri[i]:
-            i += 1
-        else:
-            break
-
-    # Kalan kelimelerden anlamlı olanları topla
-    anlamli = []
-    for k in kelimeler[i:]:
-        temiz = k.lower().strip(",;:!?'\"")
-        # Dolgu kelimesi mi?
-        if temiz in DOLGU_KELIMELER:
-            continue
-        # Çok kısa mı?
-        if len(temiz) < 3:
-            continue
-        # Sadece sayı mı?
-        if temiz.isdigit():
-            continue
-
-        anlamli.append(temiz)
-        if len(anlamli) >= 3:
-            break
-
-    if not anlamli:
-        return None
-
-    parca = "-".join(anlamli)
-
-    # Türkçe karakterleri çevir
-    for tr, en in TR_KARAKTERLER.items():
-        parca = parca.replace(tr, en)
-
-    parca = re.sub(r"[^a-z0-9]+", "-", parca)
-    parca = parca.strip("-")
-
-    if not parca:
-        return None
-
-    if len(parca) > 40:
-        parca = parca[:40].rstrip("-")
-
-    return parca or None
-
-
 def tarih_hesapla(index):
-    """Index'e göre ileri tarihli yayın tarihi hesaplar."""
     gun_farki = index // GUNLUK_YAYIN
     return (BASLANGIC_TARIHI + timedelta(days=gun_farki)).strftime("%Y-%m-%d")
 
 
 def kelime_sinirinda_kes(metin, limit=155):
-    """Metni kelime sınırından keser, ortadan kesmez."""
     if not metin:
         return ""
     if len(metin) <= limit:
@@ -138,20 +59,63 @@ def kelime_sinirinda_kes(metin, limit=155):
     return kesik + "..."
 
 
+def ipa_uret(kelime):
+    pv = kelime.split("|")[0].strip().lower()
+    try:
+        ipa_sonuc = ipa_lib.convert(pv)
+        if "*" in ipa_sonuc:
+            return None
+        return ipa_sonuc
+    except Exception:
+        return None
+
+
+def iliskili_phrasal_verbler(kelime, max_adet=6):
+    bu_pv = kelime.split("|")[0].strip().lower()
+    ana_fiil = bu_pv.split()[0]
+
+    iliskili = []
+    for diger_kelime in TUM_KAYITLAR:
+        if diger_kelime == kelime:
+            continue
+        diger_pv = diger_kelime.split("|")[0].strip().lower()
+        diger_ana_fiil = diger_pv.split()[0]
+        if diger_ana_fiil != ana_fiil:
+            continue
+        if diger_pv == bu_pv:
+            continue
+        diger_slug = slugify(diger_kelime)
+        diger_baslik = TUM_KAYITLAR[diger_kelime].get("title", diger_kelime)
+        iliskili.append((diger_slug, diger_baslik))
+        if len(iliskili) >= max_adet:
+            break
+    return iliskili
+
+
+def benzer_link_bul(benzer_pv):
+    for diger_kelime in TUM_KAYITLAR:
+        diger_pv = diger_kelime.split("|")[0].strip().lower()
+        if diger_pv == benzer_pv.lower():
+            diger_slug = slugify(diger_kelime)
+            diger_baslik = TUM_KAYITLAR[diger_kelime].get("title", diger_kelime)
+            return (diger_slug, diger_baslik)
+    return (None, None)
+
+
 def markdown_uret(kelime, veri, slug, tarih):
-    """Tek bir phrasal verb kaydından Markdown içeriği üretir."""
     title = veri.get("title", "")
     short_answer = veri.get("short_answer", "")
     origin = veri.get("origin", "")
     examples = veri.get("examples", [])
     tags = veri.get("tags", [])
+    pv_sade = kelime.split("|")[0].strip().lower()
 
-    # YAML frontmatter (PyYAML ile otomatik kaçış)
     frontmatter = {
         "title": title,
         "description": kelime_sinirinda_kes(short_answer, 155),
         "tags": tags if tags else [],
-        "phrasal_verb": kelime.split("|")[0].strip().lower(),
+        "phrasal_verb": pv_sade,
+        "url": f"/phrasal-verbs/{slug}/",
         "date": tarih,
         "draft": False,
     }
@@ -165,25 +129,37 @@ def markdown_uret(kelime, veri, slug, tarih):
 
     icerik = ["---", fm_text.strip(), "---", ""]
 
-    # Başlık (tema zaten basıyorsa kapatılabilir)
     if H1_YAZ:
         icerik.append(f"# {title}")
         icerik.append("")
 
-    # Kısa cevap
-    icerik.append(short_answer)
+    # Dinle Butonu ve IPA (Fonetik) - Modern Tasarım
+    ipa_metin = ipa_uret(kelime)
+    ipa_gosterim = f"/{ipa_metin}/" if ipa_metin else ""
+    
+    icerik.append('<div style="display: flex; align-items: center; gap: 12px; margin-bottom: 24px;">')
+    if ipa_gosterim:
+        icerik.append(f'  <span style="font-size: 1.1rem; color: var(--primary-orange);"><b>Telaffuz:</b> <code>{ipa_gosterim}</code></span>')
+    
+    ses_js = f"const msg = new SpeechSynthesisUtterance('{pv_sade.replace(chr(39), chr(92)+chr(39))}'); msg.lang = 'en-US'; window.speechSynthesis.speak(msg);"
+    icerik.append(f'  <button onclick="{ses_js}" style="background-color: var(--primary-orange); color: white; border: none; border-radius: 50%; width: 36px; height: 36px; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" title="Dinle"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg></button>')
+    icerik.append('</div>')
     icerik.append("")
 
-    # Köken
     if origin:
-        icerik.append("## Köken ve Yapı")
+        icerik.append('<div class="custom-card">')
+        icerik.append("")
+        icerik.append("## 📖 Köken ve Yapı")
         icerik.append("")
         icerik.append(origin)
         icerik.append("")
+        icerik.append("</div>")
+        icerik.append("")
 
-    # Örnek cümleler
     if examples:
-        icerik.append("## Örnek Cümleler")
+        icerik.append('<div class="custom-card info-card">')
+        icerik.append("")
+        icerik.append("## 💬 Örnek Cümleler")
         icerik.append("")
         for i, ex in enumerate(examples, start=1):
             en = ex.get("en", "")
@@ -192,113 +168,145 @@ def markdown_uret(kelime, veri, slug, tarih):
             icerik.append("")
             icerik.append(f"*{tr}*")
             icerik.append("")
-
-    # Etiketler
-    if tags:
-        icerik.append("## Etiketler")
+            if i != len(examples):
+                icerik.append("---")
+                icerik.append("")
+        icerik.append("</div>")
         icerik.append("")
-        icerik.append(" ".join([f"`{t}`" for t in tags]))
+
+    zengin = ZENGIN_DATA.get(kelime, {})
+
+    if zengin.get("sik_hata"):
+        icerik.append('<div class="custom-card error-card">')
+        icerik.append("")
+        icerik.append("## ⚠️ Sık Yapılan Hatalar")
+        icerik.append("")
+        icerik.append(f"❌ **Yanlış:** {zengin['sik_hata']}")
+        icerik.append("")
+        if zengin.get("dogru_kullanim"):
+            icerik.append(f"✅ **Doğru:** {zengin['dogru_kullanim']}")
+            icerik.append("")
+        icerik.append("</div>")
+        icerik.append("")
+
+    if zengin.get("benzer") or zengin.get("zit"):
+        icerik.append('<div class="custom-card">')
+        icerik.append("")
+        icerik.append("## 🔗 Eş ve Zıt Anlamlılar")
+        icerik.append("")
+        if zengin.get("benzer"):
+            icerik.append(f"🔄 **Benzer:** {', '.join(zengin['benzer'])}")
+            icerik.append("")
+        if zengin.get("zit"):
+            icerik.append(f"↔️ **Zıt:** {', '.join(zengin['zit'])}")
+            icerik.append("")
+        icerik.append("</div>")
+        icerik.append("")
+
+    if zengin.get("kullanim_notu"):
+        icerik.append('<div class="custom-card">')
+        icerik.append("")
+        icerik.append("## 💡 Kullanım Notu")
+        icerik.append("")
+        icerik.append(zengin["kullanim_notu"])
+        icerik.append("")
+        icerik.append("</div>")
+        icerik.append("")
+
+    benzerler = BENZER_DATA.get(kelime, [])
+    iliskili = iliskili_phrasal_verbler(kelime)
+    
+    if benzerler or iliskili:
+        icerik.append('<div class="custom-card">')
+        icerik.append("")
+        if benzerler:
+            icerik.append("## 📌 Benzer Phrasal Verb'ler")
+            icerik.append("")
+            eklenen_sluglar = set()
+            for b in benzerler:
+                benzer_slug, benzer_baslik = benzer_link_bul(b)
+                if benzer_slug and benzer_slug not in eklenen_sluglar:
+                    eklenen_sluglar.add(benzer_slug)
+                    icerik.append(f"- [{benzer_baslik}](/phrasal-verbs/{benzer_slug}/)")
+            icerik.append("")
+        
+        if iliskili:
+            icerik.append("## 🔍 İlişkili Phrasal Verb'ler")
+            icerik.append("")
+            for diger_slug, diger_baslik in iliskili:
+                icerik.append(f"- [{diger_baslik}](/phrasal-verbs/{diger_slug}/)")
+            icerik.append("")
+        icerik.append("</div>")
         icerik.append("")
 
     return "\n".join(icerik)
 
 
 def main():
+    global TUM_KAYITLAR, ZENGIN_DATA, BENZER_DATA
     if not os.path.exists(INPUT_JSON):
         print(f"HATA: {INPUT_JSON} bulunamadı!")
         return
-
-    # === RERUN TEMİZLİĞİ ===
     if os.path.exists(OUTPUT_DIR):
         silinen = len([f for f in os.listdir(OUTPUT_DIR) if f.endswith(".md")])
         shutil.rmtree(OUTPUT_DIR)
         print(f"Eski klasör temizlendi ({silinen} dosya silindi).")
-
     os.makedirs(OUTPUT_DIR, exist_ok=True)
-
     with open(INPUT_JSON, "r", encoding="utf-8") as f:
         data = json.load(f)
-
-    # Aynı base_slug'ın kaç kere kullanıldığını takip et
+    TUM_KAYITLAR = data
+    if os.path.exists(ZENGIN_JSON):
+        with open(ZENGIN_JSON, "r", encoding="utf-8") as f:
+            ZENGIN_DATA = json.load(f)
+        print(f"Zenginleştirilmiş veri yüklendi: {len(ZENGIN_DATA)} kayıt")
+    else:
+        ZENGIN_DATA = {}
+        print("UYARI: output_zengin.json bulunamadı.")
+    if os.path.exists(BENZER_JSON):
+        with open(BENZER_JSON, "r", encoding="utf-8") as f:
+            BENZER_DATA = json.load(f)
+        print(f"Benzer phrasal verb'ler yüklendi: {len(BENZER_DATA)} kayıt")
+    else:
+        BENZER_DATA = {}
+        print("UYARI: output_benzer.json bulunamadı.")
     slug_sayac = {}
-
     yazilan = 0
     atlanan = 0
     hatali = []
-
-    # İlişkili link altyapısı için index verisi
     index_data = {}
-
     for i, (kelime, veri) in enumerate(data.items()):
         try:
             base_slug = slugify(kelime)
-
             if base_slug not in slug_sayac:
-                # İlk kez görülüyor → düz slug
                 slug_sayac[base_slug] = 0
                 slug = base_slug
             else:
                 slug_sayac[base_slug] += 1
-
-                # Anlamdan slug üretmeyi dene
-                anlam = anlam_slug_ekle(kelime, veri)
-
-                # Anlam slug'ı geçerli mi? (boş olmasın, base_slug ile aynı olmasın)
-                if anlam and anlam != base_slug:
-                    slug = f"{base_slug}-{anlam}"
-                else:
-                    # FALLBACK: a, b, c, d... harf ekle
-                    harf_index = slug_sayac[base_slug] - 1
-                    harf = chr(ord("a") + harf_index)
-                    slug = f"{base_slug}-{harf}"
-
-                # Çakışma devam ediyorsa numara ekle
-                sayac = 2
-                orijinal_slug = slug
-                while os.path.exists(os.path.join(OUTPUT_DIR, f"{slug}.md")):
-                    slug = f"{orijinal_slug}-{sayac}"
-                    sayac += 1
-
+                sayac = slug_sayac[base_slug] + 1
+                slug = f"{base_slug}-{sayac}"
             tarih = tarih_hesapla(i)
             md = markdown_uret(kelime, veri, slug, tarih)
-
             dosya_yolu = os.path.join(OUTPUT_DIR, f"{slug}.md")
             with open(dosya_yolu, "w", encoding="utf-8") as f:
                 f.write(md)
-
             index_data[slug] = {
                 "title": veri.get("title", ""),
                 "phrasal_verb": kelime.split("|")[0].strip().lower(),
                 "tags": veri.get("tags", []),
                 "date": tarih,
             }
-
             yazilan += 1
-
             if yazilan % 100 == 0:
                 print(f"  {yazilan} dosya yazıldı...")
-
         except Exception as e:
             atlanan += 1
             hatali.append((kelime, str(e)))
-
     with open(INDEX_FILE, "w", encoding="utf-8") as f:
         json.dump(index_data, f, ensure_ascii=False, indent=2)
-
     print()
     print("=== BİTTİ ===")
     print(f"Toplam kayıt: {len(data)}")
     print(f"Yazılan dosya: {yazilan}")
-    print(f"Atlanan: {atlanan}")
-    print(f"Çıktı klasörü: {OUTPUT_DIR}")
-    print(f"Index dosyası: {INDEX_FILE}")
-
-    if hatali:
-        print()
-        print("Hatalı kayıtlar (ilk 10):")
-        for kelime, hata in hatali[:10]:
-            print(f"  - {kelime[:60]}: {hata}")
-
 
 if __name__ == "__main__":
     main()
