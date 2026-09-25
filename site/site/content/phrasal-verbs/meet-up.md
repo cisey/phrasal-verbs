@@ -1,0 +1,33 @@
+---
+title: Meet up Ne Demek? Anlamı ve Örnek Cümleler
+description: Meet up, iki veya daha fazla kişinin planlanmış veya rastlantıyla bir
+  araya gelmesini ifade eden yaygın bir İngilizce phrasal verb'dir. Türkçe'de...
+tags:
+- Günlük Konuşma
+phrasal_verb: meet up
+url: /phrasal-verbs/meet-up/
+date: '2025-01-12'
+draft: false
+---
+
+**Telaffuz:** `/mit əp/`
+
+Meet up, iki veya daha fazla kişinin planlanmış veya rastlantıyla bir araya gelmesini ifade eden yaygın bir İngilizce phrasal verb'dir. Türkçe'de 'buluşmak', 'randevu almak' veya 'rastlantıyla karşılaşmak' anlamına gelir. Bu ifade, özellikle arkadaşlar arasında veya iş birimi dışındaki toplantılar için sıklıkla kullanılır.
+
+## Köken ve Yapı
+
+‘meet’ kelimesi eski İngilizceden (mētan) gelirken, ‘up’ bir yönlendirme veya tamamlayıcı işlev görür; 19. yüzyılda birlikte kullanımına başlanmıştır.
+
+## Örnek Cümleler
+
+**1.** Let's meet up at the café tomorrow.
+
+*Yarın kafede buluşalım.*
+
+**2.** We met up by chance at the train station.
+
+*Tren istasyonunda rastlantıyla buluştuk.*
+
+## İlişkili Phrasal Verb'ler
+
+- [Meet With Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler](/phrasal-verbs/meet-with/)

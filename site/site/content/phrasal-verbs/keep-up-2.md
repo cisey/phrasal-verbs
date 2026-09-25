@@ -1,0 +1,39 @@
+---
+title: Keep up Ne Demek? Anlamı ve Örnek Cümleler
+description: Keep up, bir şeyle aynı seviyede kalmak, geride kalmamak anlamına gelir.
+  Genellikle bir kişi, grup ya da gelişmeyle ayak uydurmak gerektiğinde kullanılır....
+tags:
+- Günlük Konuşma
+- İş İngilizcesi
+phrasal_verb: keep up
+url: /phrasal-verbs/keep-up-2/
+date: '2024-12-04'
+draft: false
+---
+
+**Telaffuz:** `/kip əp/`
+
+Keep up, bir şeyle aynı seviyede kalmak, geride kalmamak anlamına gelir. Genellikle bir kişi, grup ya da gelişmeyle ayak uydurmak gerektiğinde kullanılır. Bu ifade, bir şeyin temposuna veya seviyesine eşit kalmayı ifade eder. Bu yüzden rekabetçi ortamlarda ve iş dünyasında sıkça duyulur.
+
+## Köken ve Yapı
+
+‘Keep’ eski İngilizce ‘cepan’ (tutmak) kelimesinden, ‘up’ ise yön belirten bir parçacık olarak devamlılık ve yükselme anlamı katmak için eklenmiştir. 19. yüzyılda ‘keep up with’ şeklinde yaygınlaşmıştır.
+
+## Örnek Cümleler
+
+**1.** She works hard to keep up with the latest technology trends.
+
+*O, en son teknoloji trendlerine ayak uydurmak için çok çalışıyor.*
+
+**2.** If you don't keep up with the market, you'll lose customers.
+
+*Piyasaya ayak uydurmazsanız müşterileri kaybedersiniz.*
+
+## İlişkili Phrasal Verb'ler
+
+- [Keep at Ne Demek? Anlamı ve Kullanım Örnekleri](/phrasal-verbs/keep-at/)
+- [Keep Away Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler](/phrasal-verbs/keep-away/)
+- [Keep away from Ne Demek? Anlamı ve Kullanım Örnekleri](/phrasal-verbs/keep-away-from/)
+- [Keep back Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler](/phrasal-verbs/keep-back/)
+- [Keep back Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler](/phrasal-verbs/keep-back/)
+- [Keep down Ne Demek? Anlamı ve Örnek Cümleler](/phrasal-verbs/keep-down/)

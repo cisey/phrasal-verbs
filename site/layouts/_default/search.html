@@ -1,0 +1,63 @@
+{{- define "main" }}
+
+<header class="page-header">
+    <h1>{{ .Title }}</h1>
+    {{- if .Description }}
+    <div class="post-description">{{ .Description }}</div>
+    {{- end }}
+</header>
+
+<div class="search-container">
+    <input type="text" id="search-input" placeholder="Ara..." autocomplete="off">
+    <div id="search-results"></div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const input = document.getElementById('search-input');
+    const resultsDiv = document.getElementById('search-results');
+    let fuse = null;
+
+    fetch('/phrasal-verbs/index.json')
+        .then(response => response.json())
+        .then(data => {
+            fuse = new Fuse(data, {
+                keys: ['title', 'summary', 'content'],
+                threshold: 0.3,
+                includeMatches: true
+            });
+            
+            // URL'den gelen q parametresini al
+            const urlParams = new URLSearchParams(window.location.search);
+            const query = urlParams.get('q');
+            if (query && fuse) {
+                input.value = query;
+                input.dispatchEvent(new Event('input'));
+            }
+        })
+        .catch(err => console.error('Arama index yüklenemedi:', err));
+
+    input.addEventListener('input', function() {
+        const query = input.value.trim();
+        if (!fuse || query.length < 2) {
+            resultsDiv.innerHTML = '';
+            return;
+        }
+        const results = fuse.search(query).slice(0, 20);
+        if (results.length === 0) {
+            resultsDiv.innerHTML = '<p>Sonuç bulunamadı.</p>';
+            return;
+        }
+        resultsDiv.innerHTML = results.map(r => {
+            const item = r.item;
+            return `<a href="${item.permalink}" class="search-result">
+                <h3>${item.title}</h3>
+                <p>${item.summary || ''}</p>
+            </a>`;
+        }).join('');
+    });
+});
+</script>
+
+{{- end }}

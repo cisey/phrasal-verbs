@@ -1,0 +1,43 @@
+{{- partial "schema_defined_term.html" . -}}
+{{- /* Phrasal Verb Telaffuz Butonu */ -}}
+{{- if eq .Section "phrasal-verbs" -}}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Sayfa başlığından phrasal verb'ü çek
+  const titleElement = document.querySelector('h1');
+  if (!titleElement) return;
+  
+  const fullTitle = titleElement.textContent.trim();
+  const phrase = fullTitle.split(' Ne Demek')[0].trim();
+  if (!phrase) return;
+
+  // Butonu oluştur
+  const btn = document.createElement('button');
+  btn.className = 'pronounce-btn';
+  btn.innerHTML = '🔊 Dinle';
+  btn.title = 'Telaffuzu Dinle';
+  
+  // Butonu başlığın altına ekle
+  const header = titleElement.parentElement;
+  if (header) {
+    header.appendChild(btn);
+  }
+
+  btn.addEventListener('click', function() {
+    btn.disabled = true;
+    const utterance = new SpeechSynthesisUtterance(phrase);
+    utterance.lang = 'en-US';
+    utterance.rate = 0.9;
+    
+    utterance.onend = function() { btn.disabled = false; };
+    utterance.onerror = function() { btn.disabled = false; };
+    
+    const voices = window.speechSynthesis.getVoices();
+    const englishVoice = voices.find(v => v.lang === 'en-US');
+    if (englishVoice) utterance.voice = englishVoice;
+    
+    window.speechSynthesis.speak(utterance);
+  });
+});
+</script>
+{{- end -}}

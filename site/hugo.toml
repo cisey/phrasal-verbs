@@ -1,0 +1,91 @@
+baseURL = "https://phrasalverb.org/"
+locale = "tr-tr"
+title = "Phrasal Verb Rehberi"
+theme = "PaperMod"
+buildFuture = true
+
+[permalinks]
+    phrasal-verbs = "/phrasal-verbs/:filename/"
+
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
+    section = ["HTML", "RSS", "JSON"]
+
+[outputFormats.JSON]
+    mediaType = "application/json"
+    baseName = "index"
+    isPlainText = true
+    notAlternative = true
+
+[services]
+    [services.googleAnalytics]
+        ID = "G-9622HBKFVR"
+
+[params]
+    description = "İngilizce phrasal verb'lerin Türkçe anlamları, kökenleri ve örnek cümleleri"
+    author = "Cihan"
+    defaultTheme = "light"
+    ShowReadingTime = true
+    ShowShareButtons = true
+    ShowPostNavLinks = true
+    ShowBreadCrumbs = true
+    ShowCodeCopyButtons = true
+    ShowToc = false
+    TocOpen = false
+    ShowFullTextinRSS = false
+    ShowThemeToggle = true
+    hideMeta = true
+
+    [params.assets]
+        customCSS = ["css/extended/custom.css"]
+
+    [params.search]
+        enable = true
+        index = "index.json"
+
+[params.homeInfoParams]
+    Title = "Phrasal Verb Rehberi 🚀"
+    Content = """
+    Sınavlar (YDS, YÖKDİL) ve günlük konuşma için özenle hazırlanmış, **sürekli genişleyen** kapsamlı kelime havuzu. Arama kutusunu kullanarak hemen çalışmaya başlayabilirsiniz.
+    
+    <div class="custom-card info-card" style="margin-top: 40px; text-align: left;">
+        <h3 id="daily-pv-title" style="margin-top: 0; margin-bottom: 15px;">🌟 Günün Phrasal Verb'ü: Yükleniyor...</h3>
+        <p id="daily-pv-meaning" style="margin-bottom: 15px; color: #475569; line-height: 1.6;">Lütfen bekleyin...</p>
+        <a id="daily-pv-link" href="#" style="display: inline-block; padding: 8px 16px; background-color: var(--primary-orange); color: white; border-radius: 6px; text-decoration: none; font-weight: bold;">Kelimeyi İncele →</a>
+    </div>
+    """
+
+[[menu.main]]
+    name = "Ana Sayfa"
+    url = "/"
+    weight = 10
+
+[[menu.main]]
+    name = "Ara"
+    url = "/phrasal-verbs/ara/"
+    weight = 25
+
+[[menu.footer]]
+    name = "Hakkımızda"
+    url = "/phrasal-verbs/hakkimizda/"
+    weight = 10
+
+[[menu.footer]]
+    name = "İletişim"
+    url = "/phrasal-verbs/iletisim/"
+    weight = 20
+
+[[menu.footer]]
+    name = "Gizlilik Politikası"
+    url = "/phrasal-verbs/gizlilik-politikasi/"
+    weight = 30
+
+[[menu.footer]]
+    name = "Kullanım Şartları"
+    url = "/phrasal-verbs/kullanim-sartlari/"
+    weight = 40
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

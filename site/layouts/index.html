@@ -1,0 +1,258 @@
+{{- define "main" }}
+
+<style>
+/* Ana Konteyner */
+.home-container {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 20px 20px 60px 20px;
+}
+
+/* Arama Odak Alanı (Hero Section) */
+.search-hero {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.search-hero h2 {
+    font-size: 2rem;
+    margin-bottom: 25px;
+    color: var(--primary);
+    font-weight: 700;
+}
+
+/* Arama Kutusu */
+.home-search-wrapper {
+    position: relative;
+    margin: 0 auto 30px auto;
+    width: 100%;
+}
+#home-search-input {
+    width: 100%;
+    padding: 22px 30px;
+    font-size: 1.3rem;
+    border: 3px solid var(--primary-orange, #f26522);
+    border-radius: 50px;
+    outline: none;
+    box-shadow: 0 8px 25px rgba(242, 101, 34, 0.15);
+    background-color: var(--theme);
+    color: var(--primary);
+    transition: all 0.3s ease;
+}
+#home-search-input:focus {
+    box-shadow: 0 12px 35px rgba(242, 101, 34, 0.25);
+    transform: translateY(-2px);
+}
+#home-search-input::placeholder {
+    color: var(--tertiary);
+    font-size: 1.1rem;
+}
+
+/* Arama Sonuçları (Dropdown) */
+#home-search-results {
+    text-align: left;
+    margin-top: 10px;
+    background: var(--theme);
+    border-radius: 16px;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+    border: 1px solid var(--border);
+}
+.search-result {
+    display: block;
+    padding: 16px 24px;
+    border-bottom: 1px solid var(--border);
+    text-decoration: none;
+    color: var(--primary);
+    transition: background 0.2s;
+}
+.search-result:last-child {
+    border-bottom: none;
+}
+.search-result:hover {
+    background-color: var(--entry);
+}
+.search-result h3 {
+    margin: 0 0 6px 0;
+    font-size: 1.15rem;
+    color: var(--primary-orange, #f26522);
+}
+.search-result p {
+    margin: 0;
+    color: var(--secondary);
+    font-size: 0.95rem;
+}
+
+/* Tüm Kelimeler Butonu */
+.home-all-words {
+    text-align: center;
+}
+.all-words-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: var(--entry);
+    border: 2px solid var(--border);
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: var(--primary);
+    transition: all 0.2s;
+}
+.all-words-btn:hover {
+    border-color: var(--primary-orange, #f26522);
+    color: var(--primary-orange, #f26522);
+    background-color: var(--theme);
+}
+
+/* Günün Kelimesi Kartı (İkincil Odak) */
+.daily-card-wrapper {
+    margin-top: 60px;
+    border-top: 2px dashed var(--border);
+    padding-top: 50px;
+}
+.daily-card-title-small {
+    text-align: center;
+    color: var(--secondary);
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.custom-card.info-card {
+    text-align: left;
+    background-color: var(--card-bg);
+    padding: 24px 28px;
+    border-radius: 12px;
+    border-left: 4px solid var(--primary-orange, #f26522);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+}
+#daily-pv-title {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 1.25rem;
+}
+#daily-pv-meaning {
+    margin-bottom: 18px;
+    line-height: 1.6;
+    font-size: 1rem;
+    color: var(--secondary);
+}
+#daily-pv-link {
+    display: inline-block;
+    padding: 8px 18px;
+    background-color: var(--primary-orange, #f26522);
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.95rem;
+    transition: opacity 0.2s;
+}
+#daily-pv-link:hover {
+    opacity: 0.9;
+}
+</style>
+
+<div class="home-container">
+    
+    <!-- 1. BÖLÜM: BÜYÜK ARAMA ODAĞI -->
+    <div class="search-hero">
+        <h2>Phrasal Verb Ara 🔍</h2>
+        
+        <div class="home-search-wrapper">
+            <input type="text" id="home-search-input" placeholder="Örn: blow up, take off, look forward to..." autocomplete="off" autofocus>
+            <div id="home-search-results"></div>
+        </div>
+        
+        <div class="home-all-words">
+            <a href="/phrasal-verbs/" class="all-words-btn">📚 Tüm Kelimeler Listesi (1108)</a>
+        </div>
+    </div>
+
+    <!-- 2. BÖLÜM: İKİNCİL İÇERİK (GÜNÜN KELİMESİ) -->
+    <div class="daily-card-wrapper">
+        <div class="daily-card-title-small">Günün Tavsiyesi</div>
+        <div class="custom-card info-card">
+            <h3 id="daily-pv-title">🌟 Yükleniyor...</h3>
+            <p id="daily-pv-meaning">Kelime havuzdan seçiliyor...</p>
+            <a id="daily-pv-link" href="#">Kelimeyi İncele →</a>
+        </div>
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const input = document.getElementById('home-search-input');
+    const resultsDiv = document.getElementById('home-search-results');
+    let fuse = null;
+
+    // Veritabanını Çek
+    fetch('/phrasal-verbs/index.json')
+        .then(response => response.json())
+        .then(data => {
+            // Arama Motorunu Başlat
+            fuse = new Fuse(data, {
+                keys: ['title', 'summary', 'content'],
+                threshold: 0.3,
+                includeMatches: true
+            });
+
+            // Günün Kelimesini Seç
+            if(data.length > 0) {
+                const today = new Date();
+                const dayIndex = Math.floor((today - new Date(today.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+                const selected = data[dayIndex % data.length];
+                
+                const pvName = selected.title ? selected.title.split(" Ne Demek?")[0] : "Kelime";
+                document.getElementById("daily-pv-title").innerText = "🌟 " + pvName;
+                
+                let snippet = selected.summary || "Kelime detaylarını incelemek için tıklayın.";
+                document.getElementById("daily-pv-meaning").innerHTML = snippet;
+                
+                document.getElementById("daily-pv-link").href = selected.permalink || "#";
+            }
+        })
+        .catch(err => {
+            console.error('Veritabanı yüklenemedi:', err);
+            document.getElementById("daily-pv-title").innerText = "Bağlantı Hatası";
+            document.getElementById("daily-pv-meaning").innerText = "Kelime yüklenemedi.";
+        });
+
+    // Arama Kutusu Etkileşimi
+    input.addEventListener('input', function() {
+        const query = input.value.trim();
+        if (!fuse || query.length < 2) {
+            resultsDiv.innerHTML = '';
+            return;
+        }
+        const results = fuse.search(query).slice(0, 8);
+        if (results.length === 0) {
+            resultsDiv.innerHTML = '<div style="padding: 20px; color: var(--secondary); text-align: center;">Sonuç bulunamadı.</div>';
+            return;
+        }
+        resultsDiv.innerHTML = results.map(r => {
+            const item = r.item;
+            return `<a href="${item.permalink}" class="search-result">
+                <h3>${item.title}</h3>
+                <p>${item.summary || ''}</p>
+            </a>`;
+        }).join('');
+    });
+
+    // Sayfada boş bir yere tıklayınca arama sonuçlarını gizle
+    document.addEventListener('click', function(e) {
+        if (!document.querySelector('.home-search-wrapper').contains(e.target)) {
+            resultsDiv.innerHTML = '';
+        }
+    });
+});
+</script>
+
+{{- end }}

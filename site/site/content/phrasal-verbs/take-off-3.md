@@ -1,0 +1,39 @@
+---
+title: Take Off Ne Demek? İşten İzin Alma Anlamı ve Örnek Cümleler
+description: Take off, bir işten veya görevden belirli bir süre uzak kalmak, yani
+  izin almak anlamına gelir. Genellikle iş yerinde 'izin kullanmak' veya 'ara vermek'...
+tags:
+- İş İngilizcesi
+- Günlük Konuşma
+phrasal_verb: take off
+url: /phrasal-verbs/take-off-3/
+date: '2026-01-03'
+draft: false
+---
+
+**Telaffuz:** `/teɪk ɔf/`
+
+Take off, bir işten veya görevden belirli bir süre uzak kalmak, yani izin almak anlamına gelir. Genellikle iş yerinde 'izin kullanmak' veya 'ara vermek' anlamında kullanılır. Ayrıca uçak, roket gibi araçların havalanması veya bir giysiyi çıkarmak gibi farklı anlamları da vardır. Bu ifade, günlük ve iş İngilizcesinde sıkça karşımıza çıkar.
+
+## Köken ve Yapı
+
+Take off, Eski İngilizce 'tacan' (almak) ve 'off' (uzaklaşma) kelimelerinin birleşmesiyle oluşmuştur. 20. yüzyılda havacılık terimi olarak 'havalanmak' anlamı yaygınlaşmış, ardından iş hayatında 'izin almak' anlamı da eklenmiştir.
+
+## Örnek Cümleler
+
+**1.** I need to take off next week to attend my sister's wedding.
+
+*Kız kardeşimin düğününe katılmak için gelecek hafta izin almam gerekiyor.*
+
+**2.** She took off two days from work to recover from the flu.
+
+*Gripten iyileşmek için işten iki gün izin aldı.*
+
+## İlişkili Phrasal Verb'ler
+
+- [Take After Ne Demek? Anlamı ve Örnek Cümleler](/phrasal-verbs/take-after/)
+- [Take Apart Ne Demek? Anlamı ve Örnek Cümleler](/phrasal-verbs/take-apart/)
+- [Take Back Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler](/phrasal-verbs/take-back/)
+- [Take Down Ne Demek? Anlamı ve Örnek Cümleler](/phrasal-verbs/take-down/)
+- [Take Down Ne Demek? Anlamı ve Örnek Cümleler](/phrasal-verbs/take-down/)
+- [Take In Ne Demek? Anlamı ve Örnek Cümleler](/phrasal-verbs/take-in/)

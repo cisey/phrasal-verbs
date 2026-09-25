@@ -1,0 +1,39 @@
+---
+title: Put Forward Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler
+description: Put forward, bir fikir, öneri veya görüşü başkalarının değerlendirmesi
+  için ortaya koymak anlamına gelen bir phrasal verb'dür. Türkçede en doğal karşılığı...
+tags:
+- İş İngilizcesi
+- Akademik İngilizce
+phrasal_verb: put forward
+url: /phrasal-verbs/put-forward/
+date: '2025-07-27'
+draft: false
+---
+
+**Telaffuz:** `/pʊt ˈfɔrwərd/`
+
+Put forward, bir fikir, öneri veya görüşü başkalarının değerlendirmesi için ortaya koymak anlamına gelen bir phrasal verb'dür. Türkçede en doğal karşılığı 'öne sürmek' veya 'ortaya atmak'tır. Genellikle toplantılarda, tartışmalarda veya resmi yazışmalarda bir düşünceyi sunmak için kullanılır.
+
+## Köken ve Yapı
+
+Put (koymak) ve forward (ileri) kelimelerinin birleşmesiyle oluşur; kelimenin tam anlamı 'ileri koymak' olup, mecazi olarak bir fikri öne çıkarmak anlamını kazanmıştır.
+
+## Örnek Cümleler
+
+**1.** She put forward a new proposal to reduce costs.
+
+*Maliyetleri düşürmek için yeni bir öneri sundu.*
+
+**2.** The scientist put forward a theory about climate change.
+
+*Bilim insanı iklim değişikliği hakkında bir teori ortaya attı.*
+
+## İlişkili Phrasal Verb'ler
+
+- [Put Aside Ne Demek? Anlamı ve Örnek Cümleler](/phrasal-verbs/put-aside/)
+- [Put Away Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler](/phrasal-verbs/put-away/)
+- [Put Back Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler](/phrasal-verbs/put-back/)
+- [Put Down Ne Demek? Anlamı ve Örnek Cümleler](/phrasal-verbs/put-down/)
+- [Put in Ne Demek? İngilizce Phrasal Verb Anlamı ve Örnek Cümleler](/phrasal-verbs/put-in/)
+- [Put Off Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler](/phrasal-verbs/put-off/)

@@ -1,0 +1,44 @@
+{{ if .IsHome }}
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // Sitedeki arama kutusunu bul
+    const searchBox = document.querySelector("#searchbox");
+    
+    if (searchBox) {
+        // Kartın görsel HTML tasarımını oluştur
+        const cardHTML = `
+        <div class="custom-card info-card" style="margin-top: 50px; margin-bottom: 50px; text-align: left; background-color: var(--card-bg); padding: 24px; border-radius: 12px; border-left: 5px solid var(--primary-orange); box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);">
+            <h3 id="daily-pv-title" style="margin-top: 0; margin-bottom: 15px;">🌟 Günün Phrasal Verb'ü: Yükleniyor...</h3>
+            <p id="daily-pv-meaning" style="margin-bottom: 15px; line-height: 1.6;">Kelime havuzdan seçiliyor...</p>
+            <a id="daily-pv-link" href="#" style="display: inline-block; padding: 8px 16px; background-color: var(--primary-orange); color: white; border-radius: 6px; text-decoration: none; font-weight: bold;">Kelimeyi İncele →</a>
+        </div>
+        `;
+        
+        // Kartı arama kutusunun hemen altına zorla yerleştir
+        searchBox.insertAdjacentHTML("afterend", cardHTML);
+        
+        // Veritabanından (index.json) kelimeleri çek
+        fetch('/index.json')
+        .then(response => response.json())
+        .then(data => {
+            const words = data.filter(item => item.permalink && item.permalink.includes('/phrasal-verbs/') && !item.permalink.includes('ara'));
+            if(words.length > 0) {
+                // Yılın gününe göre kelime seç
+                const today = new Date();
+                const dayIndex = Math.floor((today - new Date(today.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+                const selected = words[dayIndex % words.length];
+                
+                const pvName = selected.title.split(" Ne Demek?")[0];
+                document.getElementById("daily-pv-title").innerText = "🌟 Günün Phrasal Verb'ü: " + pvName;
+                
+                let snippet = selected.content.substring(0, 130).replace(/#/g, '').replace(/\*/g, '').trim();
+                document.getElementById("daily-pv-meaning").innerHTML = snippet + "...";
+                
+                document.getElementById("daily-pv-link").href = selected.permalink;
+            }
+        })
+        .catch(error => console.error("Kelime yüklenemedi:", error));
+    }
+});
+</script>
+{{ end }}

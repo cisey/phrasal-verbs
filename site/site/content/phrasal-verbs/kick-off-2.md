@@ -1,0 +1,39 @@
+---
+title: Kick off Ne Demek? Anlamı ve Örnek Cümleler
+description: Kick off, bir ekip, komite veya grup gibi bir ortamdan birini zorla dışarı
+  çıkarmak, çıkarmak veya dışlamak anlamına gelir; Türkçe’de ‘atmak’, ‘sırtını...
+tags:
+- İş İngilizcesi
+- Günlük Konuşma
+phrasal_verb: kick off
+url: /phrasal-verbs/kick-off-2/
+date: '2025-01-26'
+draft: false
+---
+
+**Telaffuz:** `/kɪk ɔf/`
+
+Kick off, bir ekip, komite veya grup gibi bir ortamdan birini zorla dışarı çıkarmak, çıkarmak veya dışlamak anlamına gelir; Türkçe’de ‘atmak’, ‘sırtını dönmek’ veya ‘ dışarı eject etmek’ gibi ifadelerle karşılanır. Bu ifade, genellikle resmi veya yarışmacı ortamlarda kullanılır ve kararın kesin ve genellikle karşılıksız olduğu anlamına taşır.
+
+## Köken ve Yapı
+
+Kick off, ilk olarak bir oyunu başlatmak (örnek futbolda topu atmak) anlamında kullanılan bir spor terimidir; zamanla ‘birini dışarı çıkarmak’ anlamına da genişlemiştir.
+
+## Örnek Cümleler
+
+**1.** The committee decided to kick off the member who kept missing meetings.
+
+*Komite, toplantılara devam etmeyen üyeyi dışarı çıkarmaya karar verdi.*
+
+**2.** After repeated violations, the coach kicked off the player from the team.
+
+*Tekrarlayan ihlallerden sonra antrenör, oyuncuyu takımdan çıkardı.*
+
+## İlişkili Phrasal Verb'ler
+
+- [Kick Around Ne Demek? Anlamı ve Kullanım Örnekleri](/phrasal-verbs/kick-around/)
+- [Kick Around Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler](/phrasal-verbs/kick-around/)
+- [Kick Back Ne Demek? Anlamı ve Örnek Cümleler](/phrasal-verbs/kick-back/)
+- [Kick in Ne Demek? Anlamı ve Kullanım Örnekleri](/phrasal-verbs/kick-in/)
+- [Kick Over Ne Demek? Anlamı ve Örnek Cümleler](/phrasal-verbs/kick-over/)
+- [Kick Out Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler](/phrasal-verbs/kick-out/)

@@ -1,0 +1,76 @@
+{{- define "main" }}
+
+<header class="page-header">
+    <h1>{{ .Title }}</h1>
+    {{- if .Description }}
+    <div class="post-description">
+        {{ .Description }}
+    </div>
+    {{- end }}
+</header>
+
+{{- $pages := .Pages }}
+{{- $paginator := .Paginate $pages 10 }}
+
+<div class="post-list">
+    {{- range $paginator.Pages }}
+    <article class="post-entry">
+        <header class="entry-header">
+            <h2>{{ .Title }}</h2>
+        </header>
+        <div class="entry-content">
+            <p>{{ .Summary | plainify | truncate 200 }}</p>
+        </div>
+        <footer class="entry-footer">
+            {{- if not .Date.IsZero }}
+            <span>{{ .Date.Format "2 January 2006" }}</span>
+            {{- end }}
+            <span>·</span>
+            <span>{{ .ReadingTime }} dk okuma</span>
+            {{- if .Params.author }}
+            <span>·</span>
+            <span>{{ .Params.author }}</span>
+            {{- end }}
+        </footer>
+        <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+    </article>
+    {{- end }}
+</div>
+
+{{- if gt $paginator.TotalPages 1 }}
+<nav class="pagination">
+    {{- if $paginator.HasPrev }}
+    <a href="{{ $paginator.Prev.URL }}" class="pagination-prev">« Önceki</a>
+    {{- end }}
+
+    {{- $current := $paginator.PageNumber }}
+    {{- $total := $paginator.TotalPages }}
+
+    {{- if gt $current 3 }}
+        <a href="{{ $paginator.First.URL }}">1</a>
+        {{- if gt $current 4 }}<span class="pagination-dots">...</span>{{- end }}
+    {{- end }}
+
+    {{- range $paginator.Pagers }}
+        {{- $num := .PageNumber }}
+        {{- if and (ge $num (sub $current 2)) (le $num (add $current 2)) }}
+            {{- if eq $num $current }}
+                <span class="pagination-current">{{ $num }}</span>
+            {{- else }}
+                <a href="{{ .URL }}">{{ $num }}</a>
+            {{- end }}
+        {{- end }}
+    {{- end }}
+
+    {{- if lt $current (sub $total 2) }}
+        {{- if lt $current (sub $total 3) }}<span class="pagination-dots">...</span>{{- end }}
+        <a href="{{ $paginator.Last.URL }}">{{ $total }}</a>
+    {{- end }}
+
+    {{- if $paginator.HasNext }}
+    <a href="{{ $paginator.Next.URL }}" class="pagination-next">Sonraki »</a>
+    {{- end }}
+</nav>
+{{- end }}
+
+{{- end }}

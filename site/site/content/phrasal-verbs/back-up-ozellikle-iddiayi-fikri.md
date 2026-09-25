@@ -1,0 +1,30 @@
+---
+title: Back Up Ne Demek? Türkçesi, Anlamı ve Örnek Kullanımları
+description: Back up, özellikle bir iddiayı, fikri veya söylemi kanıtlarla, verilerle
+  ya da somut örneklerle desteklemek ve doğrulamak anlamına gelir. Bir tartışmada...
+tags:
+- İş İngilizcesi
+- Akademik İngilizce
+phrasal_verb: back up
+url: /phrasal-verbs/back-up-ozellikle-iddiayi-fikri/
+date: '2023-10-04'
+draft: false
+---
+
+**Telaffuz:** `/bæk əp/`
+
+Back up, özellikle bir iddiayı, fikri veya söylemi kanıtlarla, verilerle ya da somut örneklerle desteklemek ve doğrulamak anlamına gelir. Bir tartışmada veya sunumda ileri sürülen görüşün geçerliliğini kanıtlamak için kullanılan bu ifade, Türkçeye 'desteklemek', 'doğrulamak' veya 'kanıt sunmak' şeklinde çevrilir.
+
+## Köken ve Yapı
+
+Bu ifade, fiziksel olarak bir şeyi arkadan destekleyerek devrilmesini önlemek anlamından mecazi olarak bir düşünceyi kanıtla ayakta tutma anlamını kazanmıştır.
+
+## Örnek Cümleler
+
+**1.** You need to back up your claims with solid evidence before the board meeting.
+
+*Yönetim kurulu toplantısından önce iddialarını sağlam kanıtlarla desteklemen gerekiyor.*
+
+**2.** The research findings back up the theory that exercise improves mental health.
+
+*Araştırma bulguları, egzersizin akıl sağlığını iyileştirdiği teorisini destekliyor.*

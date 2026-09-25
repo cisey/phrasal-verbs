@@ -1,0 +1,17 @@
+{{- $isPhrasalVerb := eq .Section "phrasal-verbs" -}}
+{{- if $isPhrasalVerb -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "{{ .Title }}",
+  "description": "{{ .Description | default .Summary | plainify }}",
+  "url": "{{ .Permalink }}",
+  "inDefinedTermSet": {
+    "@type": "DefinedTermSet",
+    "name": "Phrasal Verb Rehberi",
+    "url": "https://phrasalverb.org/phrasal-verbs/"
+  }
+}
+</script>
+{{- end -}}

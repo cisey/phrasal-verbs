@@ -1,0 +1,85 @@
+---
+title: Work Out Ne Demek? Anlamı, Türkçe Karşılığı ve Örnek Cümleler
+description: Work out, İngilizcede en yaygın anlamıyla formda ve sağlıklı kalmak için
+  fiziksel egzersiz yapmak demektir. Türkçede genellikle spor yapmak, antrenman...
+tags:
+- Günlük Konuşma
+- Sınav İngilizcesi
+phrasal_verb: work out
+url: /phrasal-verbs/work-out-2/
+date: '2026-04-12'
+draft: false
+---
+
+<div style="display: flex; align-items: center; gap: 12px; margin-bottom: 24px;">
+  <span style="font-size: 1.1rem; color: var(--primary-orange);"><b>Telaffuz:</b> <code>/wərk aʊt/</code></span>
+  <button onclick="const msg = new SpeechSynthesisUtterance('work out'); msg.lang = 'en-US'; window.speechSynthesis.speak(msg);" style="background-color: var(--primary-orange); color: white; border: none; border-radius: 50%; width: 36px; height: 36px; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" title="Dinle"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg></button>
+</div>
+
+<div class="custom-card">
+
+## 📖 Köken ve Yapı
+
+Work out ifadesi, Eski İngilizce kökenli work fiili ile dışarı, tamamen anlamları taşıyan out edatının birleşmesiyle oluşmuştur. İlk kullanımlarında bir işi sonuçlandırmak, çözüme ulaştırmak anlamı taşırken zamanla fiziksel egzersiz yapmak anlamı da yaygınlaşmıştır.
+
+</div>
+
+<div class="custom-card info-card">
+
+## 💬 Örnek Cümleler
+
+**1.** I work out at the gym three times a week to stay fit.
+
+*Formda kalmak için haftada üç kez spor salonunda antrenman yapıyorum.*
+
+---
+
+**2.** She works out every morning before breakfast.
+
+*O, her sabah kahvaltıdan önce egzersiz yapar.*
+
+---
+
+**3.** We need to work out a solution to this problem together.
+
+*Bu soruna birlikte bir çözüm bulmamız gerekiyor.*
+
+</div>
+
+<div class="custom-card error-card">
+
+## ⚠️ Sık Yapılan Hatalar
+
+❌ **Yanlış:** I work out every day cümlesini 'Her gün çalışırım' diye çevirmek (doğrusu: 'Her gün egzersiz yaparım')
+
+✅ **Doğru:** I work out at the gym every morning. → Her sabah spor salonunda egzersiz yaparım.
+
+</div>
+
+<div class="custom-card">
+
+## 🔗 Eş ve Zıt Anlamlılar
+
+🔄 **Benzer:** exercise, train, warm up
+
+↔️ **Zıt:** sit around, veg out
+
+</div>
+
+<div class="custom-card">
+
+## 💡 Kullanım Notu
+
+Günlük konuşma dilinde sık kullanılır; resmi yazıda 'exercise' daha uygundur.
+
+</div>
+
+<div class="custom-card">
+
+## 🔍 İlişkili Phrasal Verb'ler
+
+- [Work At Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler](/phrasal-verbs/work-at/)
+- [Work Off Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler](/phrasal-verbs/work-off/)
+- [Work On Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler](/phrasal-verbs/work-on/)
+
+</div>

@@ -1,0 +1,34 @@
+---
+title: Ring Up Ne Demek? Anlamı ve Örnek Cümleler
+description: Ring up, İngilizce bir phrasal verb olup 'telefonla aramak' anlamına
+  gelir. Türkçede en doğal karşılığı 'telefon etmek' veya 'aramak'tır. Genellikle...
+tags:
+- Günlük Konuşma
+- İş İngilizcesi
+phrasal_verb: ring up
+url: /phrasal-verbs/ring-up/
+date: '2025-09-01'
+draft: false
+---
+
+**Telaffuz:** `/rɪŋ əp/`
+
+Ring up, İngilizce bir phrasal verb olup 'telefonla aramak' anlamına gelir. Türkçede en doğal karşılığı 'telefon etmek' veya 'aramak'tır. Genellikle birine telefonla ulaşmak için kullanılır. Günlük konuşmada yaygındır ve resmi olmayan bir ifadedir.
+
+## Köken ve Yapı
+
+Ring up, Eski İngilizce'deki 'hringan' (çalmak) ve 'up' (yukarı) kelimelerinin birleşmesiyle oluşmuştur. Telefonun çalması anlamından türemiştir.
+
+## Örnek Cümleler
+
+**1.** I'll ring you up tomorrow to discuss the details.
+
+*Detayları konuşmak için yarın seni arayacağım.*
+
+**2.** She rang up the office to ask for a day off.
+
+*Bir gün izin istemek için ofisi aradı.*
+
+## İlişkili Phrasal Verb'ler
+
+- [Ring Back Ne Demek? Anlamı ve Örnek Cümleler](/phrasal-verbs/ring-back/)

@@ -1,0 +1,42 @@
+baseURL = "https://cisey.github.io/phrasal-verbs/"
+locale = "tr-tr"
+title = "Phrasal Verb Rehberi"
+theme = "PaperMod"
+buildFuture = true
+
+[permalinks]
+    phrasal-verbs = "/phrasal-verbs/:slug/"
+
+[params]
+    description = "İngilizce phrasal verb'lerin Türkçe anlamları, kökenleri ve örnek cümleleri"
+    author = "Cihan"
+    defaultTheme = "auto"
+    ShowReadingTime = true
+    ShowShareButtons = true
+    ShowPostNavLinks = true
+    ShowBreadCrumbs = true
+    ShowCodeCopyButtons = true
+    ShowToc = false
+    TocOpen = false
+    ShowFullTextinRSS = false
+    [params.assets]
+        customCSS = ["css/extended/custom.css"]
+
+[params.homeInfoParams]
+    Title = "Phrasal Verb Rehberi"
+    Content = "1108 İngilizce phrasal verb'ün Türkçe anlamları, kökenleri ve örnek cümleleri."
+
+[[menu.main]]
+    name = "Ana Sayfa"
+    url = "/"
+    weight = 10
+
+[[menu.main]]
+    name = "Tüm Kelimeler"
+    url = "/phrasal-verbs/"
+    weight = 20
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

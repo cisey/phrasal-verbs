@@ -1,0 +1,14 @@
+{{- if not site.Params.footer.hideCopyright }}
+<footer class="footer">
+    {{- if site.Params.footer.showMenu | default true }}
+    <nav class="footer-menu">
+        {{- range site.Menus.footer }}
+        <a href="{{ .URL }}">{{ .Name }}</a>
+        {{- end }}
+    </nav>
+    {{- end }}
+    <p class="footer-copyright">
+        &copy; {{ now.Year }} {{ site.Title }} · Powered by Hugo & PaperMod
+    </p>
+</footer>
+{{- end }}

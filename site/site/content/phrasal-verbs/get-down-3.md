@@ -1,0 +1,39 @@
+---
+title: Get down Ne Demek? Anlamı ve Örnek Cümleler
+description: Get down, bir şeyi zor olsa da kabul etmek ya da yutmak anlamına gelir.
+  Kişi, hoşlanmadığı ya da zorlayıcı bir durumu kabullenerek ilerlemeye karar...
+tags:
+- Günlük Konuşma
+- İş İngilizcesi
+phrasal_verb: get down
+url: /phrasal-verbs/get-down-3/
+date: '2024-07-23'
+draft: false
+---
+
+**Telaffuz:** `/gɪt daʊn/`
+
+Get down, bir şeyi zor olsa da kabul etmek ya da yutmak anlamına gelir. Kişi, hoşlanmadığı ya da zorlayıcı bir durumu kabullenerek ilerlemeye karar verdiğinde bu ifadeyi kullanır. Bu durum genellikle iş yerinde beklenmedik bir sorumluluk ya da kişisel hayatta zor bir karar olduğunda ortaya çıkar.
+
+## Köken ve Yapı
+
+İfade, 'down' kelimesinin fiziksel olarak aşağı inme anlamından türeyerek, mecazi olarak da hoş olmayan bir durumu kabul etme ya da yutma anlamına evrilmiştir.
+
+## Örnek Cümleler
+
+**1.** He had to get down the bitter medicine to survive.
+
+*Hayatta kalabilmek için acı ilacı yutmak zorunda kaldı.*
+
+**2.** She finally got down to accepting the promotion despite her doubts.
+
+*Şüphelerine rağmen terfiyi kabul etmeye sonunda karar verdi.*
+
+## İlişkili Phrasal Verb'ler
+
+- [Get Along Ne Demek? Anlamı ve Örnek Cümleler](/phrasal-verbs/get-along/)
+- [Get Around Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler](/phrasal-verbs/get-around/)
+- [Get Around Ne Demek? Anlamı ve Örnek Cümleler](/phrasal-verbs/get-around/)
+- [Get at Ne Demek? Anlamı ve Örnek Cümleler](/phrasal-verbs/get-at/)
+- [Get at Ne Demek? Anlamı ve Örnek Cümleler](/phrasal-verbs/get-at/)
+- [Get away Ne Demek? Anlamı ve Günlük Kullanım Örnekleri](/phrasal-verbs/get-away/)

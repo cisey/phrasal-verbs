@@ -1,0 +1,81 @@
+---
+title: Play Down Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler
+description: Play down, bir şeyin önemini veya ciddiyetini olduğundan daha az göstermeye
+  çalışmak anlamına gelen bir phrasal verb'dür. Türkçede en doğal karşılığı...
+tags:
+- İş İngilizcesi
+- Günlük Konuşma
+phrasal_verb: play down
+url: /phrasal-verbs/play-down/
+date: '2025-07-11'
+draft: false
+---
+
+<div style="display: flex; align-items: center; gap: 12px; margin-bottom: 24px;">
+  <span style="font-size: 1.1rem; color: var(--primary-orange);"><b>Telaffuz:</b> <code>/pleɪ daʊn/</code></span>
+  <button onclick="const msg = new SpeechSynthesisUtterance('play down'); msg.lang = 'en-US'; window.speechSynthesis.speak(msg);" style="background-color: var(--primary-orange); color: white; border: none; border-radius: 50%; width: 36px; height: 36px; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" title="Dinle"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg></button>
+</div>
+
+<div class="custom-card">
+
+## 📖 Köken ve Yapı
+
+Play down, 19. yüzyıldan itibaren İngilizcede 'play' (oynamak) ve 'down' (aşağı) kelimelerinin birleşmesiyle oluşmuş bir deyimsel fiildir. 'Aşağı çekmek' mecazi anlamından türemiştir.
+
+</div>
+
+<div class="custom-card info-card">
+
+## 💬 Örnek Cümleler
+
+**1.** The government tried to play down the seriousness of the economic crisis.
+
+*Hükümet, ekonomik krizin ciddiyetini önemsiz göstermeye çalıştı.*
+
+---
+
+**2.** She played down her role in the project, but everyone knew she was the key person.
+
+*Projedeki rolünü küçümsedi, ama herkes onun kilit kişi olduğunu biliyordu.*
+
+</div>
+
+<div class="custom-card error-card">
+
+## ⚠️ Sık Yapılan Hatalar
+
+❌ **Yanlış:** Nesne olmadan kullanmak: "He played down." (Yanlış) - Doğrusu: "He played it down."
+
+✅ **Doğru:** The company tried to play down the environmental damage.
+
+</div>
+
+<div class="custom-card">
+
+## 🔗 Eş ve Zıt Anlamlılar
+
+🔄 **Benzer:** downplay, minimize, understate, belittle
+
+↔️ **Zıt:** emphasize, overstate, exaggerate
+
+</div>
+
+<div class="custom-card">
+
+## 💡 Kullanım Notu
+
+Resmi ve haber dilinde sıkça kullanılır; günlük konuşmada da anlaşılır.
+
+</div>
+
+<div class="custom-card">
+
+## 🔍 İlişkili Phrasal Verb'ler
+
+- [Play Around Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler](/phrasal-verbs/play-around/)
+- [Play Around Ne Demek? Anlamı, Türkçe Karşılığı ve Örnek Cümleler](/phrasal-verbs/play-around/)
+- [Play Back Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler](/phrasal-verbs/play-back/)
+- [Play Up Ne Demek? Anlamı ve Örnek Cümleler](/phrasal-verbs/play-up/)
+- [Play Up Ne Demek? Anlamı, Kullanımı ve Örnek Cümleler](/phrasal-verbs/play-up/)
+
+</div>
